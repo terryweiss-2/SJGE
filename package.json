@@ -1,0 +1,17 @@
+{
+  "name": "sbgsuite",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A suite of tools for creating manager-style games (seasons, leagues, teams).",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "workspaces": [
+    "packages/*",
+    "products/*"
+  ],
+  "scripts": {
+    "test": "npm run test --workspaces --if-present"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "@sbgsuite/lib",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Tools and utilities: calculators, database abstractions, etc.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "@sbgsuite/ui",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Vue.js UI component library shared by the products.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  }
+}

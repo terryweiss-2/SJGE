@@ -1,0 +1,11 @@
+{
+  "name": "@sbgsuite/baseball",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Baseball management game.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test"
+  }
+}
