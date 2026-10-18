@@ -9,7 +9,7 @@ The game should not be a "pay to win" game. If anything it will be "pay to make 
 between teams and their salary has to be accounted for.
 
 Some leagues will require a spending cap. Others will allow unlimited spending. But care should be taken that teams with
-very large budgets do not play smaller teams regularly by defining the leagues with that support inclusion rules. "A
-regular basis" is yet to be defined.  
+very large budgets do not play smaller teams regularly by defining leagues that support inclusion rules to define who is
+allowed into a league. "regularly" is yet to be defined.
 
 Budgets should be recalculated at the end of each game. 
