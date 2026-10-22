@@ -1,4 +1,4 @@
-# SGBSuite
+# SJGE
 
 I would like to create a suite of tools for creating manager-like games. Each game will have seasons, leagues, and
 teams.

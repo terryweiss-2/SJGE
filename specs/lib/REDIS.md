@@ -88,13 +88,13 @@ ioredis `duplicate`.
     - The values returned should be each a pojo of `{field: value}`. Here is an example implementation:
 
 ```javascript
-export async function* scanHash( key, options = {} ) {
-  const stream = redis.hscanStream( key, { count: 500, ...options } );
-  for await ( const batch of stream ) {
-    for ( let i = 0; i < batch.length; i += 2 ) {
-      yield { [ batch[ i ] ]: JSON.parse( batch[ i + 1 ] ) };
+export async function* scanHash(key, options = {}) {
+    const stream = redis.hscanStream(key, {count: 500, ...options});
+    for await (const batch of stream) {
+        for (let i = 0; i < batch.length; i += 2) {
+            yield {[batch[i]]: JSON.parse(batch[i + 1])};
+        }
     }
-  }
 }
 ```
 
@@ -109,17 +109,17 @@ export async function* scanHash( key, options = {} ) {
       values one at a time. Here is example code:
 
 ```javascript
-export async function* scanList( key, options = {} ) {
-  const batch = options.batchSize ?? 500;
-  for ( let start = 0; ; start += batch ) {
-    const page = await redis.lrange( key, start, start + batch - 1 );
-    if ( page.length === 0 ) {
-      return;
+export async function* scanList(key, options = {}) {
+    const batch = options.batchSize ?? 500;
+    for (let start = 0; ; start += batch) {
+        const page = await redis.lrange(key, start, start + batch - 1);
+        if (page.length === 0) {
+            return;
+        }
+        for (const value of page) {
+            yield JSON.parse(value);
+        }
     }
-    for ( const value of page ) {
-      yield JSON.parse( value );
-    }
-  }
 }
 ```
 
@@ -139,11 +139,11 @@ made.
 
 ## OptionsConfig
 
-On disk in `config.yaml` the mongo hive will be contained in an environment
+On disk in `config.yaml` the `redis` hive will be contained in an environment
 
 ```yaml
 development:
-  mongoUrl: mongodb://localhost:27017/dataExtractor_etl25
+  mongoUrl: mongodb://localhost:27017/sjge1
   redis:
     url: redis://localhost:6379
     options:
@@ -152,9 +152,9 @@ development:
 ```
 
 That will be flatted by the config module so that at runtime it will look like this:
-
+Redis settings are in `redis`
 ```yaml
-mongoUrl: mongodb://localhost:27017/dataExtractor_etl25
+mongoUrl: mongodb://localhost:27017/sjge1
 redis:
   url: redis://localhost:6379
   options:

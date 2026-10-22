@@ -1,1 +1,1 @@
-export const name = '@sbgsuite/motorsport';
+export const name = '@sjge/motorsport';

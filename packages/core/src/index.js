@@ -1,1 +1,1 @@
-export const name = '@sbgsuite/core';
+export const name = '@sjge/core';

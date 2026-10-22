@@ -1,6 +1,6 @@
-# @sbgsuite/lib
+# @sjge/lib
 
-Tools and utilities shared by the SBGSuite packages and products.
+Tools and utilities shared by the SJGE packages and products.
 
 ## Exports
 
@@ -14,7 +14,7 @@ Everything is exported from `src/index.js`:
 | `loadConfig`   | function | `src/config.js` |
 
 ```js
-import {getLogger, LoggerLevels, loadConfig} from '@sbgsuite/lib';
+import {getLogger, LoggerLevels, loadConfig} from '@sjge/lib';
 ```
 
 ## Logger

@@ -25,7 +25,7 @@ Environments map config values to execution environments. These environments are
   the current config as it is being built.
 - **Environment Variables** Environment variables are the next highest precedence. The system will prefer `dotenv` for
   loading environment variables, but will accept any environment variables. The config module should call dotenv on
-  every initialization. The config module only interprets variables that start with `ETL_` and converts from snake case
+  every initialization. The config module only interprets variables that start with `SJGE_` and converts from snake case
   to camel case and overwrites a config value if it already exists, or just adds to the config object if it doesn't
   match anything.
 - **Command Line** The command line arguments are the highest precedence. They override all other configuration sources.
@@ -38,7 +38,7 @@ Environments map config values to execution environments. These environments are
   config
   functions are called. Its output is the config object. It is a POJO with no methods or any other properties except
   what is found in the config. Load should be idempotent. Every time I call it with the same parameters, I get the same
-  object back. The `environment` parameter is optional and defaults to the value of `ETL_ENV` environmet variable or it
+  object back. The `environment` parameter is optional and defaults to the value of `SJGE_ENV` environmet variable or it
   defaults to a constant of `development`.
     - **`config`** The object that is returned from `loadConfig ()` is shaped by the config.yaml file. It has no other
       schema.
@@ -75,7 +75,7 @@ Options from the command line should leverage yargs dot notation.
 - When travesing parent directories, root package.json has workspaces — good. Stop at first dir with workspaces; fall
   back to .git; if neither found, stop at filesystem root is risky — instead use only cwd (fail-safe) and log a warning.
 - `yargs` has tools built in to handle parsing the environment, prefer yargs to custom code.
-- Environment variables like ETL_ENV should be loaded after dotenv
+- Environment variables like SJGE_ENV should be loaded after dotenv
 - call dotenv.config ({ quiet: true }) inside `loadConfig()`  so tests can set env first.
 - Individual modules may also define their own yargs parsers for module-specific cli options.
 - The default yargs parser in config.js should define these optional parameters:
@@ -85,7 +85,8 @@ Options from the command line should leverage yargs dot notation.
       `development`.
     - `.help(false).version(false).exitProcess(false)`
 - When merging objects, keep it simple, arrays can overwrite each other, objects can be merged.
-- Config options may contain credentials; never log the full config. Log only keys/sources via getLogger from logger.js.
+- Config options may contain credentials; never log the full config. Log only keys/sources via gSJGEogger from
+  logger.js.
 - check.assert.maybe.* is the correct API for optional params rather than hand-rolled checks. YAML parse errors should
   propagate (fail-fast) with the file path added to the message; missing file is the only recoverable case (ENOENT), so
   catch only that code. 

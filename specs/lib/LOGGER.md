@@ -31,7 +31,7 @@
 
 - **Behavior**
     - The default log level should be `start`. The logger should also look for an environment variable called
-      `ETL_LOGGER_LEVEL` that can override the default level. By default trace and debug levels are disabled.
+      `SJGE_LOGGER_LEVEL` that can override the default level. By default trace and debug levels are disabled.
     - The output should adhere to this template: `<UTC Formatted Date>|<name>|<level>|<message>`
     - Output should be colored. The color would only apply to the `<level>` part of the message. Assume only ANSI colors
       are available

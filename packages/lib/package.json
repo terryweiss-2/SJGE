@@ -1,5 +1,5 @@
 {
-  "name": "@sbgsuite/lib",
+  "name": "@sjge/lib",
   "version": "0.1.0",
   "private": true,
   "description": "Tools and utilities: calculators, database abstractions, etc.",

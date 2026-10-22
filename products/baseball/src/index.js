@@ -1,1 +1,1 @@
-export const name = '@sbgsuite/baseball';
+export const name = '@sjge/baseball';

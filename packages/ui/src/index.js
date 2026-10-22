@@ -1,1 +1,1 @@
-export const name = '@sbgsuite/ui';
+export const name = '@sjge/ui';

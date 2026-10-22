@@ -3,5 +3,5 @@ import assert from 'node:assert/strict';
 import {name} from '../src/index.js';
 
 test('ui exports its name', () => {
-    assert.equal(name, '@sbgsuite/ui');
+    assert.equal(name, '@sjge/ui');
 });

@@ -48,7 +48,7 @@ ioRedis (redis)
 - Store all skills in `.agents/skills`.
 - Store all plans in `.agents/plans`.
 - Do not store project plans in `.junie/plans`.
--
+
 
 # Behaviors
 
@@ -57,3 +57,5 @@ ioRedis (redis)
 - Always add jsdoc module level documentation and for all public methods and properties in the module. Add or update the
   README.md in the root of the package so that it contains all exported symbols and a description of how to use them and
   their parameters.
+- All testing and execution happens in ubuntu, wsl is supported when the IDE is in windows. Windows and Mac are not
+  supported unless and until a PWA is created.

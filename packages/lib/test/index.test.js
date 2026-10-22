@@ -3,5 +3,5 @@ import assert from 'node:assert/strict';
 import {name} from '../src/index.js';
 
 test('lib exports its name', () => {
-    assert.equal(name, '@sbgsuite/lib');
+    assert.equal(name, '@sjge/lib');
 });

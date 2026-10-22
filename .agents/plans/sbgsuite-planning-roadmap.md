@@ -73,7 +73,7 @@ are implementation-ready. The domain specs (ECONOMY, LEAGUES, PLAYERS, SEASONS, 
    can start as one monolith with module boundaries.
 7. Is the service split (Membership, Economy, Games, History, Leagues) deployed as separate processes, or logical
    modules first?
-8. Can I remove the `ETL_` prefix and rename it to something like `SBG_`?
+8. Can I remove the `ETL_` prefix and rename it to something like `SJGE_`?
 9. Do you want a spec per product (baseball, motorsport), covering skills, rules, and terminology?
 
 # Recommended Order

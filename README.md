@@ -1,4 +1,4 @@
-# SBGSuite
+# SJGE
 
 A suite of tools for creating manager-style games. Each game has seasons, leagues, and teams. There is no physics
 simulation; gameplay is limited to management of teams. Initial targets are motorsport and baseball, with American
