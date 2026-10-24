@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+    <defs>
+        <linearGradient id="stands-grad-hp" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#1e1e28"/>
+            <stop offset="50%" stop-color="#2a293b"/>
+            <stop offset="100%" stop-color="#181822"/>
+        </linearGradient>
+        <linearGradient id="grass-grad-hp" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#246838"/>
+            <stop offset="100%" stop-color="#184b27"/>
+        </linearGradient>
+        <pattern id="lawn-stripes-hp" width="36" height="36" patternUnits="userSpaceOnUse">
+            <rect width="18" height="36" fill="#1e582e" fill-opacity="0.25"/>
+            <rect x="18" width="18" height="36" fill="#2d7e44" fill-opacity="0.25"/>
+        </pattern>
+        <radialGradient id="infield-dirt-grad-hp" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#c98a58"/>
+            <stop offset="85%" stop-color="#b57442"/>
+            <stop offset="100%" stop-color="#9a5e30"/>
+        </radialGradient>
+        <linearGradient id="track-grad-hp" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#a8683c"/>
+            <stop offset="100%" stop-color="#8a4f28"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Background & Concourse/Stands -->
+    <g id="background-stands">
+        <rect width="800" height="800" fill="#0d0e14"/>
+        <!-- Outer Seating Bowl (Mile-High Rocky Mountain styling with Purple/Granite accents) -->
+        <path d="M 120 730 C 30 570 30 270 150 130 C 250 30 550 30 650 130 C 770 270 770 570 680 730 C 590 770 210 770 120 730 Z"
+              fill="url(#stands-grad-hp)" stroke="#4a3e68" stroke-width="4"/>
+        <!-- Mountain Tier Rings -->
+        <path d="M 140 710 C 60 560 60 290 170 150 C 260 60 540 60 630 150 C 740 290 740 560 660 710" fill="none"
+              stroke="#5a4e7c" stroke-width="2" stroke-dasharray="10,6"/>
+        <path d="M 160 690 C 90 550 90 310 190 180 C 270 90 530 90 610 180 C 710 310 710 550 640 690" fill="none"
+              stroke="#372e50" stroke-width="3"/>
+        <!-- Rocky Mountain Peak Accents in Concourse -->
+        <polygon points="380,45 400,20 420,45" fill="#6d5c9c" opacity="0.8"/>
+        <polygon points="350,55 370,28 390,55" fill="#4d3c74" opacity="0.6"/>
+        <polygon points="410,55 430,28 450,55" fill="#4d3c74" opacity="0.6"/>
+    </g>
+
+    <!-- Foul Territory (Medium preset) -->
+    <g id="foul-territory">
+        <path d="M 118 398 L 118 660 C 118 735 250 735 400 735 C 550 735 685 735 685 660 L 685 395 L 400 680 Z"
+              fill="#1b4a28"/>
+        <path d="M 118 398 L 118 660 C 118 735 250 735 400 735 C 550 735 685 735 685 660 L 685 395" fill="none"
+              stroke="#12381d" stroke-width="3"/>
+    </g>
+
+    <!-- Outfield Grass & Turf Pattern -->
+    <g id="outfield-grass">
+        <!-- LF: 347ft (118,398), LCF: 390ft (228,266), CF: 415ft (400,203), RCF: 390ft (572,266), RF: 350ft (685,395) -->
+        <path d="M 400 680 L 118 398 Q 228 266 400 203 Q 572 266 685 395 Z" fill="url(#grass-grad-hp)"/>
+        <path d="M 400 680 L 118 398 Q 228 266 400 203 Q 572 266 685 395 Z" fill="url(#lawn-stripes-hp)"/>
+    </g>
+
+    <!-- Warning Track -->
+    <g id="warning-track">
+        <!-- Outfield Wall Warning Track -->
+        <path d="M 118 398 Q 228 266 400 203 Q 572 266 685 395 L 670 408 Q 562 284 400 223 Q 238 284 133 411 Z"
+              fill="url(#track-grad-hp)" stroke="#784220" stroke-width="1"/>
+        <!-- Backstop Warning Track (Medium foul territory) -->
+        <path d="M 118 635 C 118 725 260 725 400 725 C 540 725 685 725 685 635 L 675 635 C 675 715 540 715 400 715 C 260 715 128 715 128 635 Z"
+              fill="url(#track-grad-hp)"/>
+    </g>
+
+    <!-- Infield Dirt Diamond & Pitcher's Mound -->
+    <g id="infield-dirt">
+        <path d="M 400 480 C 475 480 535 540 535 615 C 535 645 520 675 490 705 L 400 715 L 310 705 C 280 675 265 645 265 615 C 265 540 325 480 400 480 Z"
+              fill="url(#infield-dirt-grad-hp)" stroke="#8c5228" stroke-width="2"/>
+        <polygon points="400,660 470,590 400,520 330,590" fill="#246838"/>
+        <polygon points="400,660 470,590 400,520 330,590" fill="url(#lawn-stripes-hp)"/>
+        <circle cx="400" cy="610" r="14" fill="#b57442" stroke="#784220" stroke-width="1.5"/>
+        <rect x="396" y="609" width="8" height="2.5" fill="#ffffff"/>
+        <circle cx="400" cy="678" r="26" fill="url(#infield-dirt-grad-hp)"/>
+        <circle cx="473" cy="607" r="11" fill="url(#infield-dirt-grad-hp)"/>
+        <circle cx="400" cy="534" r="11" fill="url(#infield-dirt-grad-hp)"/>
+        <circle cx="327" cy="607" r="11" fill="url(#infield-dirt-grad-hp)"/>
+    </g>
+
+    <!-- Base Paths & Chalk Lines -->
+    <g id="base-paths-lines">
+        <line x1="400" y1="680" x2="118" y2="398" stroke="#ffffff" stroke-width="2.5"/>
+        <line x1="400" y1="680" x2="685" y2="395" stroke="#ffffff" stroke-width="2.5"/>
+        <line x1="400" y1="680" x2="473" y2="607" stroke="#ffffff" stroke-width="2"/>
+        <line x1="473" y1="607" x2="400" y2="534" stroke="#ffffff" stroke-width="2"/>
+        <line x1="400" y1="534" x2="327" y2="607" stroke="#ffffff" stroke-width="2"/>
+        <line x1="327" y1="607" x2="400" y2="680" stroke="#ffffff" stroke-width="2"/>
+        <rect x="388" y="672" width="6" height="12" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+        <rect x="406" y="672" width="6" height="12" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+        <rect x="495" y="620" width="16" height="8" fill="none" stroke="#ffffff" stroke-width="1"
+              transform="rotate(-45 503 624)"/>
+        <rect x="289" y="620" width="16" height="8" fill="none" stroke="#ffffff" stroke-width="1"
+              transform="rotate(45 297 624)"/>
+    </g>
+
+    <!-- Bases -->
+    <g id="bases">
+        <polygon points="400,680 404,676 404,672 396,672 396,676" fill="#ffffff" stroke="#333333" stroke-width="0.8"/>
+        <polygon points="473,601 479,607 473,613 467,607" fill="#ffffff" stroke="#555555" stroke-width="0.8"/>
+        <polygon points="400,528 406,534 400,540 394,534" fill="#ffffff" stroke="#555555" stroke-width="0.8"/>
+        <polygon points="327,601 333,607 327,613 321,607" fill="#ffffff" stroke="#555555" stroke-width="0.8"/>
+    </g>
+
+    <!-- Outfield Wall (LF-CF 8ft standard, RF 14ft high wall with purple-stone accent) -->
+    <g id="outfield-wall">
+        <!-- LF to CF standard 8ft wall -->
+        <path d="M 118 398 Q 228 266 400 203" fill="none" stroke="#122d1b" stroke-width="5" stroke-linecap="round"/>
+        <path d="M 118 398 Q 228 266 400 203" fill="none" stroke="#28cd41" stroke-width="2" stroke-linecap="round"/>
+        <!-- CF to RCF to RF 14ft elevated wall -->
+        <path d="M 400 203 Q 572 266 685 395" fill="none" stroke="#34224c" stroke-width="8" stroke-linecap="round"/>
+        <path d="M 400 203 Q 572 266 685 395" fill="none" stroke="#a284dc" stroke-width="3" stroke-linecap="round"/>
+        <!-- 14ft RF wall height badge indicator -->
+        <rect x="635" y="325" width="38" height="14" rx="3" fill="#34224c" stroke="#a284dc" stroke-width="1"/>
+        <text x="654" y="336" font-family="sans-serif" font-size="9" font-weight="bold" fill="#ffffff"
+              text-anchor="middle">14 FT
+        </text>
+    </g>
+
+    <!-- Stadium Accents & Details -->
+    <g id="stadium-accents">
+        <circle cx="118" cy="398" r="5" fill="#ffd60a" stroke="#000000" stroke-width="1"/>
+        <circle cx="685" cy="395" r="5" fill="#ffd60a" stroke="#000000" stroke-width="1"/>
+        <text x="122" y="382" font-family="sans-serif" font-size="11" font-weight="bold" fill="#ffffff">347</text>
+        <text x="390" y="190" font-family="sans-serif" font-size="11" font-weight="bold" fill="#ffffff">415</text>
+        <text x="665" y="380" font-family="sans-serif" font-size="11" font-weight="bold" fill="#ffffff">350</text>
+        <!-- Mile High Altitude Badge -->
+        <rect x="340" y="745" width="120" height="18" rx="4" fill="#2d2242" stroke="#7b68ae" stroke-width="1"/>
+        <text x="400" y="758" font-family="sans-serif" font-size="10" font-weight="bold" fill="#cfc2ec"
+              text-anchor="middle">ELEVATION 5,280 FT
+        </text>
+        <text x="400" y="785" font-family="sans-serif" font-size="14" font-weight="bold" fill="#af9be0"
+              text-anchor="middle" letter-spacing="2">HIGHLAND PEAK FIELD
+        </text>
+    </g>
+</svg>

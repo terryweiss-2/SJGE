@@ -6,7 +6,12 @@
   "type": "module",
   "main": "src/index.js",
   "exports": "./src/index.js",
+  "dependencies": {
+    "check-types": "^11.2.3",
+    "yaml": "^2.5.0"
+  },
   "scripts": {
-    "test": "node --test"
+    "test": "node --test",
+    "schemas": "node scripts/emit-schemas.js"
   }
 }

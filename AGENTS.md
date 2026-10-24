@@ -40,15 +40,16 @@ ioRedis (redis)
 ## Testing
 
 - Use tapjs for testing
-- Redis and MongoDB are installed locally, but do not start automatically, tests should start these services before
-  testing and shutdown afterward if they were started by the test.
+- Redis and MongoDB are installed in local docker with default options. DO not mock redis or mongo or rabbitmq, check to
+  see if the docker engine is running and start it if it is not running. If you had to start it, close it when you are
+  done. If you did not start it, leave it running when tests are finished. The same is true for the services in the
+  docker compose file, rabbitmq, redis and mongo.
 
 ## Agent file locations
 
 - Store all skills in `.agents/skills`.
 - Store all plans in `.agents/plans`.
 - Do not store project plans in `.junie/plans`.
-
 
 # Behaviors
 

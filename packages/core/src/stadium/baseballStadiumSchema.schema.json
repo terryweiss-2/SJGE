@@ -1,0 +1,202 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": [
+      "_id",
+      "name",
+      "sport",
+      "gameVersion",
+      "capacity",
+      "location",
+      "climate",
+      "dimensions"
+    ],
+    "additionalProperties": false,
+    "properties": {
+      "_id": {
+        "bsonType": "string",
+        "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+      },
+      "name": {
+        "bsonType": "string",
+        "minLength": 1
+      },
+      "sport": {
+        "enum": [
+          "baseball"
+        ]
+      },
+      "gameVersion": {
+        "bsonType": "string",
+        "pattern": "^\\d+\\.\\d+\\.\\d+$"
+      },
+      "capacity": {
+        "bsonType": "int",
+        "minimum": 1
+      },
+      "location": {
+        "bsonType": "object",
+        "required": [
+          "city",
+          "region",
+          "country",
+          "lat",
+          "lng",
+          "timezone"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "city": {
+            "bsonType": "string",
+            "minLength": 1
+          },
+          "region": {
+            "bsonType": "string"
+          },
+          "country": {
+            "bsonType": "string",
+            "pattern": "^[A-Z]{2}$"
+          },
+          "lat": {
+            "bsonType": "double",
+            "minimum": -90,
+            "maximum": 90
+          },
+          "lng": {
+            "bsonType": "double",
+            "minimum": -180,
+            "maximum": 180
+          },
+          "timezone": {
+            "bsonType": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "climate": {
+        "bsonType": "object",
+        "required": [
+          "type",
+          "altitudeFt",
+          "avgTempF"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "type": {
+            "enum": [
+              "temperate",
+              "tropical",
+              "arid",
+              "continental",
+              "polar",
+              "dome"
+            ]
+          },
+          "altitudeFt": {
+            "bsonType": "number",
+            "minimum": -300
+          },
+          "avgTempF": {
+            "bsonType": "number",
+            "minimum": -60,
+            "maximum": 130
+          }
+        }
+      },
+      "dimensions": {
+        "bsonType": "object",
+        "required": [
+          "fenceFt",
+          "wallHeightFt",
+          "foulTerritory"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "fenceFt": {
+            "bsonType": "object",
+            "required": [
+              "lf",
+              "lcf",
+              "cf",
+              "rcf",
+              "rf"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "lf": {
+                "bsonType": "number",
+                "minimum": 325,
+                "maximum": 365
+              },
+              "lcf": {
+                "bsonType": "number",
+                "minimum": 340,
+                "maximum": 420
+              },
+              "cf": {
+                "bsonType": "number",
+                "minimum": 390,
+                "maximum": 440
+              },
+              "rcf": {
+                "bsonType": "number",
+                "minimum": 340,
+                "maximum": 420
+              },
+              "rf": {
+                "bsonType": "number",
+                "minimum": 325,
+                "maximum": 365
+              }
+            }
+          },
+          "wallHeightFt": {
+            "bsonType": "object",
+            "required": [
+              "lf",
+              "lcf",
+              "cf",
+              "rcf",
+              "rf"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "lf": {
+                "bsonType": "number",
+                "minimum": 3,
+                "maximum": 40
+              },
+              "lcf": {
+                "bsonType": "number",
+                "minimum": 3,
+                "maximum": 40
+              },
+              "cf": {
+                "bsonType": "number",
+                "minimum": 3,
+                "maximum": 40
+              },
+              "rcf": {
+                "bsonType": "number",
+                "minimum": 3,
+                "maximum": 40
+              },
+              "rf": {
+                "bsonType": "number",
+                "minimum": 3,
+                "maximum": 40
+              }
+            }
+          },
+          "foulTerritory": {
+            "enum": [
+              "small",
+              "medium",
+              "large"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+    <defs>
+        <linearGradient id="stands-grad-rb" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#2a1f1d"/>
+            <stop offset="50%" stop-color="#3d2c29"/>
+            <stop offset="100%" stop-color="#1f1614"/>
+        </linearGradient>
+        <linearGradient id="grass-grad-rb" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#2d6e38"/>
+            <stop offset="100%" stop-color="#1c4e25"/>
+        </linearGradient>
+        <pattern id="lawn-stripes-rb" width="40" height="40" patternUnits="userSpaceOnUse"
+                 patternTransform="rotate(90)">
+            <rect width="20" height="40" fill="#245d2e" fill-opacity="0.3"/>
+            <rect x="20" width="20" height="40" fill="#327c40" fill-opacity="0.3"/>
+        </pattern>
+        <radialGradient id="infield-dirt-grad-rb" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#bf7a4e"/>
+            <stop offset="85%" stop-color="#a66338"/>
+            <stop offset="100%" stop-color="#8a4d25"/>
+        </radialGradient>
+        <linearGradient id="brick-track-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#a6442e"/>
+            <stop offset="100%" stop-color="#7d2f1e"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Background & Concourse/Stands -->
+    <g id="background-stands">
+        <rect width="800" height="800" fill="#120c0a"/>
+        <!-- Industrial Classic Stadium Footprint (Small tight seating bowl) -->
+        <path d="M 140 720 C 60 580 60 290 170 150 C 270 50 530 50 630 150 C 740 290 740 580 660 720 C 580 750 220 750 140 720 Z"
+              fill="url(#stands-grad-rb)" stroke="#5c382e" stroke-width="4"/>
+        <!-- Industrial Brickwork & Steel Truss Accents -->
+        <path d="M 160 700 C 90 560 90 310 190 170 C 280 80 520 80 610 170 C 710 310 710 560 640 700" fill="none"
+              stroke="#7a4638" stroke-width="2" stroke-dasharray="8,4"/>
+        <path d="M 180 680 C 120 540 120 330 210 200 C 290 110 510 110 590 200 C 680 330 680 540 620 680" fill="none"
+              stroke="#42221a" stroke-width="3"/>
+        <!-- Warehouse / Factory Roof Silhouettes in Concourse -->
+        <polygon points="120,280 140,260 140,300" fill="#4d2c22"/>
+        <polygon points="120,330 140,310 140,350" fill="#4d2c22"/>
+        <polygon points="120,380 140,360 140,400" fill="#4d2c22"/>
+    </g>
+
+    <!-- Foul Territory (Small preset) -->
+    <g id="foul-territory">
+        <path d="M 136 416 L 155 640 C 155 715 280 715 400 715 C 520 715 645 715 645 640 L 664 416 L 400 680 Z"
+              fill="#1b4923"/>
+        <path d="M 136 416 L 155 640 C 155 715 280 715 400 715 C 520 715 645 715 645 640 L 664 416" fill="none"
+              stroke="#12381a" stroke-width="3"/>
+    </g>
+
+    <!-- Outfield Grass & Turf Pattern -->
+    <g id="outfield-grass">
+        <!-- LF: 325ft (136,416), LCF: 370ft (237,287), CF: 400ft (400,220), RCF: 375ft (565,282), RF: 325ft (664,416) -->
+        <path d="M 400 680 L 136 416 Q 237 287 400 220 Q 565 282 664 416 Z" fill="url(#grass-grad-rb)"/>
+        <path d="M 400 680 L 136 416 Q 237 287 400 220 Q 565 282 664 416 Z" fill="url(#lawn-stripes-rb)"/>
+    </g>
+
+    <!-- Warning Track (Industrial Brick Tone) -->
+    <g id="warning-track">
+        <!-- Outfield Warning Track -->
+        <path d="M 136 416 Q 237 287 400 220 Q 565 282 664 416 L 649 428 Q 555 301 400 242 Q 248 305 151 428 Z"
+              fill="url(#brick-track-grad)" stroke="#612114" stroke-width="1"/>
+        <!-- Backstop Warning Track (Small foul territory) -->
+        <path d="M 155 620 C 155 705 280 705 400 705 C 520 705 645 705 645 620 L 635 620 C 635 695 520 695 400 695 C 280 695 165 695 165 620 Z"
+              fill="url(#brick-track-grad)"/>
+    </g>
+
+    <!-- Infield Dirt Diamond & Pitcher's Mound -->
+    <g id="infield-dirt">
+        <path d="M 400 480 C 475 480 535 540 535 615 C 535 645 520 675 490 705 L 400 715 L 310 705 C 280 675 265 645 265 615 C 265 540 325 480 400 480 Z"
+              fill="url(#infield-dirt-grad-rb)" stroke="#7a3f1a" stroke-width="2"/>
+        <polygon points="400,660 470,590 400,520 330,590" fill="#2d6e38"/>
+        <polygon points="400,660 470,590 400,520 330,590" fill="url(#lawn-stripes-rb)"/>
+        <circle cx="400" cy="610" r="14" fill="#a66338" stroke="#663412" stroke-width="1.5"/>
+        <rect x="396" y="609" width="8" height="2.5" fill="#ffffff"/>
+        <circle cx="400" cy="678" r="26" fill="url(#infield-dirt-grad-rb)"/>
+        <circle cx="473" cy="607" r="11" fill="url(#infield-dirt-grad-rb)"/>
+        <circle cx="400" cy="534" r="11" fill="url(#infield-dirt-grad-rb)"/>
+        <circle cx="327" cy="607" r="11" fill="url(#infield-dirt-grad-rb)"/>
+    </g>
+
+    <!-- Base Paths & Chalk Lines -->
+    <g id="base-paths-lines">
+        <line x1="400" y1="680" x2="136" y2="416" stroke="#ffffff" stroke-width="2.5"/>
+        <line x1="400" y1="680" x2="664" y2="416" stroke="#ffffff" stroke-width="2.5"/>
+        <line x1="400" y1="680" x2="473" y2="607" stroke="#ffffff" stroke-width="2"/>
+        <line x1="473" y1="607" x2="400" y2="534" stroke="#ffffff" stroke-width="2"/>
+        <line x1="400" y1="534" x2="327" y2="607" stroke="#ffffff" stroke-width="2"/>
+        <line x1="327" y1="607" x2="400" y2="680" stroke="#ffffff" stroke-width="2"/>
+        <rect x="388" y="672" width="6" height="12" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+        <rect x="406" y="672" width="6" height="12" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+        <rect x="495" y="620" width="16" height="8" fill="none" stroke="#ffffff" stroke-width="1"
+              transform="rotate(-45 503 624)"/>
+        <rect x="289" y="620" width="16" height="8" fill="none" stroke="#ffffff" stroke-width="1"
+              transform="rotate(45 297 624)"/>
+    </g>
+
+    <!-- Bases -->
+    <g id="bases">
+        <polygon points="400,680 404,676 404,672 396,672 396,676" fill="#ffffff" stroke="#333333" stroke-width="0.8"/>
+        <polygon points="473,601 479,607 473,613 467,607" fill="#ffffff" stroke="#555555" stroke-width="0.8"/>
+        <polygon points="400,528 406,534 400,540 394,534" fill="#ffffff" stroke="#555555" stroke-width="0.8"/>
+        <polygon points="327,601 333,607 327,613 321,607" fill="#ffffff" stroke="#555555" stroke-width="0.8"/>
+    </g>
+
+    <!-- Outfield Wall (LF: 28ft MONSTER WALL, LCF: 19ft, CF-RF: 9ft) -->
+    <g id="outfield-wall">
+        <!-- LF to LCF Towering 28ft/19ft Monster Wall (Thick green & industrial steel) -->
+        <path d="M 136 416 Q 237 287 310 245" fill="none" stroke="#0e2e17" stroke-width="14" stroke-linecap="round"/>
+        <path d="M 136 416 Q 237 287 310 245" fill="none" stroke="#1d5c2f" stroke-width="10" stroke-linecap="round"/>
+        <path d="M 136 416 Q 237 287 310 245" fill="none" stroke="#ffd60a" stroke-width="2.5" stroke-linecap="round"/>
+        <!-- Monster Wall Badge -->
+        <rect x="155" y="325" width="62" height="16" rx="3" fill="#0e2e17" stroke="#ffd60a" stroke-width="1"/>
+        <text x="186" y="337" font-family="sans-serif" font-size="9" font-weight="bold" fill="#ffd60a"
+              text-anchor="middle">28 FT WALL
+        </text>
+
+        <!-- CF to RF 9ft Standard Wall -->
+        <path d="M 310 245 Q 400 220 565 282 Q 620 340 664 416" fill="none" stroke="#1b3d24" stroke-width="6"
+              stroke-linecap="round"/>
+        <path d="M 310 245 Q 400 220 565 282 Q 620 340 664 416" fill="none" stroke="#4cd964" stroke-width="2"
+              stroke-linecap="round"/>
+    </g>
+
+    <!-- Stadium Accents & Details -->
+    <g id="stadium-accents">
+        <circle cx="136" cy="416" r="5" fill="#ffd60a" stroke="#000000" stroke-width="1"/>
+        <circle cx="664" cy="416" r="5" fill="#ffd60a" stroke="#000000" stroke-width="1"/>
+        <text x="140" y="402" font-family="sans-serif" font-size="11" font-weight="bold" fill="#ffffff">325</text>
+        <text x="390" y="206" font-family="sans-serif" font-size="11" font-weight="bold" fill="#ffffff">400</text>
+        <text x="644" y="402" font-family="sans-serif" font-size="11" font-weight="bold" fill="#ffffff">325</text>
+        <!-- Stadium Title -->
+        <text x="400" y="780" font-family="sans-serif" font-size="14" font-weight="bold" fill="#e07a5f"
+              text-anchor="middle" letter-spacing="2">RUST BELT YARDS
+        </text>
+    </g>
+</svg>

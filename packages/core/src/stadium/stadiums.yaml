@@ -1,0 +1,309 @@
+- _id: emerald-cove-park
+  name: Emerald Cove Park
+  sport: baseball
+  gameVersion: "0.1.0"
+  capacity: 38500
+  location:
+    city: Seattle
+    region: Washington
+    country: US
+    lat: 47.5914
+    lng: -122.3325
+    timezone: America/Los_Angeles
+  climate:
+    type: temperate
+    altitudeFt: 15
+    avgTempF: 62.5
+  dimensions:
+    fenceFt:
+      lf: 331
+      lcf: 378
+      cf: 405
+      rcf: 381
+      rf: 326
+    wallHeightFt:
+      lf: 8
+      lcf: 8
+      cf: 8
+      rcf: 8
+      rf: 8
+    foulTerritory: large
+
+- _id: highland-peak-field
+  name: Highland Peak Field
+  sport: baseball
+  gameVersion: "0.1.0"
+  capacity: 46800
+  location:
+    city: Denver
+    region: Colorado
+    country: US
+    lat: 39.7559
+    lng: -104.9942
+    timezone: America/Denver
+  climate:
+    type: continental
+    altitudeFt: 5280
+    avgTempF: 50.2
+  dimensions:
+    fenceFt:
+      lf: 347
+      lcf: 390
+      cf: 415
+      rcf: 390
+      rf: 350
+    wallHeightFt:
+      lf: 8
+      lcf: 8
+      cf: 8
+      rcf: 8
+      rf: 14
+    foulTerritory: medium
+
+- _id: rust-belt-yards
+  name: Rust Belt Yards
+  sport: baseball
+  gameVersion: "0.1.0"
+  capacity: 34800
+  location:
+    city: Cleveland
+    region: Ohio
+    country: US
+    lat: 41.4962
+    lng: -81.6852
+    timezone: America/New_York
+  climate:
+    type: continental
+    altitudeFt: 650
+    avgTempF: 51.5
+  dimensions:
+    fenceFt:
+      lf: 325
+      lcf: 370
+      cf: 400
+      rcf: 375
+      rf: 325
+    wallHeightFt:
+      lf: 28
+      lcf: 19
+      cf: 9
+      rcf: 9
+      rf: 9
+    foulTerritory: small
+
+- _id: bayou-coliseum
+  name: Bayou Coliseum
+  sport: baseball
+  gameVersion: "0.1.0"
+  capacity: 42000
+  location:
+    city: New Orleans
+    region: Louisiana
+    country: US
+    lat: 29.9511
+    lng: -90.0812
+    timezone: America/Chicago
+  climate:
+    type: dome
+    altitudeFt: -6
+    avgTempF: 72.0
+  dimensions:
+    fenceFt:
+      lf: 330
+      lcf: 375
+      cf: 400
+      rcf: 375
+      rf: 330
+    wallHeightFt:
+      lf: 10
+      lcf: 10
+      cf: 10
+      rcf: 10
+      rf: 10
+    foulTerritory: medium
+
+- _id: sonoran-oasis-grounds
+  name: Sonoran Oasis Grounds
+  sport: baseball
+  gameVersion: "0.1.0"
+  capacity: 31200
+  location:
+    city: Phoenix
+    region: Arizona
+    country: US
+    lat: 33.4453
+    lng: -112.0667
+    timezone: America/Phoenix
+  climate:
+    type: arid
+    altitudeFt: 1086
+    avgTempF: 75.3
+  dimensions:
+    fenceFt:
+      lf: 340
+      lcf: 382
+      cf: 407
+      rcf: 362
+      rf: 325
+    wallHeightFt:
+      lf: 8
+      lcf: 8
+      cf: 8
+      rcf: 12
+      rf: 20
+    foulTerritory: small
+
+- _id: metro-dome-tokyo
+  name: Metro Dome Tokyo
+  sport: baseball
+  gameVersion: "0.1.0"
+  capacity: 45000
+  location:
+    city: Tokyo
+    region: Tokyo
+    country: JP
+    lat: 35.7056
+    lng: 139.7519
+    timezone: Asia/Tokyo
+  climate:
+    type: dome
+    altitudeFt: 40
+    avgTempF: 71.5
+  dimensions:
+    fenceFt:
+      lf: 328
+      lcf: 362
+      cf: 395
+      rcf: 362
+      rf: 328
+    wallHeightFt:
+      lf: 13
+      lcf: 13
+      cf: 13
+      rcf: 13
+      rf: 13
+    foulTerritory: medium
+
+- _id: estadio-del-sol
+  name: Estadio del Sol
+  sport: baseball
+  gameVersion: "0.1.0"
+  capacity: 22000
+  location:
+    city: Santo Domingo
+    region: Distrito Nacional
+    country: DO
+    lat: 18.4861
+    lng: -69.9312
+    timezone: America/Santo_Domingo
+  climate:
+    type: tropical
+    altitudeFt: 140
+    avgTempF: 79.2
+  dimensions:
+    fenceFt:
+      lf: 335
+      lcf: 385
+      cf: 410
+      rcf: 385
+      rf: 335
+    wallHeightFt:
+      lf: 8
+      lcf: 8
+      cf: 8
+      rcf: 8
+      rf: 8
+    foulTerritory: small
+
+- _id: parque-metropolitano
+  name: Parque Metropolitano
+  sport: baseball
+  gameVersion: "0.1.0"
+  capacity: 21900
+  location:
+    city: Monterrey
+    region: Nuevo Leon
+    country: MX
+    lat: 25.6866
+    lng: -100.3161
+    timezone: America/Monterrey
+  climate:
+    type: arid
+    altitudeFt: 1770
+    avgTempF: 73.0
+  dimensions:
+    fenceFt:
+      lf: 325
+      lcf: 360
+      cf: 395
+      rcf: 360
+      rf: 325
+    wallHeightFt:
+      lf: 8
+      lcf: 8
+      cf: 8
+      rcf: 8
+      rf: 8
+    foulTerritory: medium
+
+- _id: great-northern-field
+  name: Great Northern Field
+  sport: baseball
+  gameVersion: "0.1.0"
+  capacity: 28500
+  location:
+    city: Montreal
+    region: Quebec
+    country: CA
+    lat: 45.5017
+    lng: -73.5673
+    timezone: America/Toronto
+  climate:
+    type: continental
+    altitudeFt: 110
+    avgTempF: 44.8
+  dimensions:
+    fenceFt:
+      lf: 345
+      lcf: 385
+      cf: 410
+      rcf: 385
+      rf: 345
+    wallHeightFt:
+      lf: 12
+      lcf: 12
+      cf: 12
+      rcf: 12
+      rf: 12
+    foulTerritory: large
+
+- _id: harbor-view-stadium
+  name: Harbor View Stadium
+  sport: baseball
+  gameVersion: "0.1.0"
+  capacity: 24500
+  location:
+    city: Busan
+    region: Yeongnam
+    country: KR
+    lat: 35.1796
+    lng: 129.0756
+    timezone: Asia/Seoul
+  climate:
+    type: temperate
+    altitudeFt: 12
+    avgTempF: 58.4
+  dimensions:
+    fenceFt:
+      lf: 330
+      lcf: 375
+      cf: 400
+      rcf: 380
+      rf: 338
+    wallHeightFt:
+      lf: 9
+      lcf: 9
+      cf: 9
+      rcf: 15
+      rf: 15
+    foulTerritory: large

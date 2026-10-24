@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+    <defs>
+        <linearGradient id="stands-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#14282c"/>
+            <stop offset="50%" stop-color="#1b3b40"/>
+            <stop offset="100%" stop-color="#0f2024"/>
+        </linearGradient>
+        <linearGradient id="grass-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#2d7a46"/>
+            <stop offset="100%" stop-color="#1e5c33"/>
+        </linearGradient>
+        <pattern id="lawn-stripes" width="40" height="40" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+            <rect width="20" height="40" fill="#2b7744" fill-opacity="0.25"/>
+            <rect x="20" width="20" height="40" fill="#388e53" fill-opacity="0.25"/>
+        </pattern>
+        <radialGradient id="infield-dirt-grad" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#d49b6a"/>
+            <stop offset="85%" stop-color="#c18352"/>
+            <stop offset="100%" stop-color="#a86d3e"/>
+        </radialGradient>
+        <linearGradient id="track-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#c48a58"/>
+            <stop offset="100%" stop-color="#a66e3c"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Background & Concourse/Stands -->
+    <g id="background-stands">
+        <!-- Stadium Outer Footprint -->
+        <rect width="800" height="800" fill="#0b1618"/>
+        <!-- Outer Seating Bowl (Temperate Pacific Northwest teal-slate styling) -->
+        <path d="M 120 740 C 40 580 40 280 160 140 C 260 40 540 40 640 140 C 760 280 760 580 680 740 C 600 780 200 780 120 740 Z"
+              fill="url(#stands-grad)" stroke="#2d575e" stroke-width="4"/>
+        <!-- Stadium Deck Tier Rings -->
+        <path d="M 140 720 C 70 570 70 300 180 160 C 270 70 530 70 620 160 C 730 300 730 570 660 720" fill="none"
+              stroke="#3d6e77" stroke-width="2" stroke-dasharray="12,6"/>
+        <path d="M 160 700 C 100 560 100 320 200 190 C 280 100 520 100 600 190 C 700 320 700 560 640 700" fill="none"
+              stroke="#25484e" stroke-width="3"/>
+        <!-- Coastal Concourse Canopy Accents -->
+        <path d="M 160 140 L 220 200 M 640 140 L 580 200 M 400 40 L 400 120" stroke="#4fa3b0" stroke-width="2"
+              stroke-opacity="0.6"/>
+    </g>
+
+    <!-- Foul Territory (Large preset) -->
+    <g id="foul-territory">
+        <!-- Expansive foul ground boundary -->
+        <path d="M 130 410 L 130 680 C 130 760 260 760 400 760 C 540 760 670 760 670 680 L 670 415 L 665 415 L 400 680 L 135 410 Z"
+              fill="#205833"/>
+        <path d="M 130 410 L 130 680 C 130 760 260 760 400 760 C 540 760 670 760 670 680 L 670 415" fill="none"
+              stroke="#184227" stroke-width="3"/>
+    </g>
+
+    <!-- Outfield Grass & Turf Pattern -->
+    <g id="outfield-grass">
+        <!-- LF: 331ft (130,410), LCF: 378ft (233,279), CF: 405ft (400,214), RCF: 381ft (568,276), RF: 326ft (665,415) -->
+        <path d="M 400 680 L 130 410 Q 230 275 400 214 Q 570 275 665 415 Z" fill="url(#grass-grad)"/>
+        <path d="M 400 680 L 130 410 Q 230 275 400 214 Q 570 275 665 415 Z" fill="url(#lawn-stripes)"/>
+    </g>
+
+    <!-- Warning Track (along outfield wall and foul margins) -->
+    <g id="warning-track">
+        <!-- Outfield Wall Warning Track (width ~22px) -->
+        <path d="M 130 410 Q 230 275 400 214 Q 570 275 665 415 L 650 427 Q 560 295 400 236 Q 240 295 145 423 Z"
+              fill="url(#track-grad)" stroke="#945f32" stroke-width="1"/>
+        <!-- Backstop Warning Track (Large foul territory) -->
+        <path d="M 130 650 C 130 750 270 750 400 750 C 530 750 670 750 670 650 L 660 650 C 660 740 530 740 400 740 C 270 740 140 740 140 650 Z"
+              fill="url(#track-grad)"/>
+    </g>
+
+    <!-- Infield Dirt Diamond & Pitcher's Mound -->
+    <g id="infield-dirt">
+        <!-- Infield Dirt Circle/Cutout -->
+        <path d="M 400 480 C 475 480 535 540 535 615 C 535 645 520 675 490 705 L 400 715 L 310 705 C 280 675 265 645 265 615 C 265 540 325 480 400 480 Z"
+              fill="url(#infield-dirt-grad)" stroke="#a16738" stroke-width="2"/>
+        <!-- Infield Inner Turf Diamond -->
+        <polygon points="400,660 470,590 400,520 330,590" fill="#2d7a46"/>
+        <polygon points="400,660 470,590 400,520 330,590" fill="url(#lawn-stripes)"/>
+        <!-- Pitcher's Mound (radius 12 at 400, 610) -->
+        <circle cx="400" cy="610" r="14" fill="#bd8250" stroke="#8c582c" stroke-width="1.5"/>
+        <rect x="396" y="609" width="8" height="2.5" fill="#ffffff"/>
+        <!-- Home Plate Dirt Circle -->
+        <circle cx="400" cy="678" r="26" fill="url(#infield-dirt-grad)"/>
+        <!-- Base Cutout Dirt Circles -->
+        <circle cx="473" cy="607" r="11" fill="url(#infield-dirt-grad)"/>
+        <circle cx="400" cy="534" r="11" fill="url(#infield-dirt-grad)"/>
+        <circle cx="327" cy="607" r="11" fill="url(#infield-dirt-grad)"/>
+    </g>
+
+    <!-- Base Paths & Chalk Lines -->
+    <g id="base-paths-lines">
+        <!-- Foul Lines (Home to LF & RF corners) -->
+        <line x1="400" y1="680" x2="130" y2="410" stroke="#ffffff" stroke-width="2.5"/>
+        <line x1="400" y1="680" x2="665" y2="415" stroke="#ffffff" stroke-width="2.5"/>
+        <!-- Running Lane & Infield Chalk Lines -->
+        <line x1="400" y1="680" x2="473" y2="607" stroke="#ffffff" stroke-width="2"/>
+        <line x1="473" y1="607" x2="400" y2="534" stroke="#ffffff" stroke-width="2"/>
+        <line x1="400" y1="534" x2="327" y2="607" stroke="#ffffff" stroke-width="2"/>
+        <line x1="327" y1="607" x2="400" y2="680" stroke="#ffffff" stroke-width="2"/>
+        <!-- Batter's Boxes & Catcher's Box -->
+        <rect x="388" y="672" width="6" height="12" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+        <rect x="406" y="672" width="6" height="12" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+        <!-- Coach's Boxes -->
+        <rect x="495" y="620" width="16" height="8" fill="none" stroke="#ffffff" stroke-width="1"
+              transform="rotate(-45 503 624)"/>
+        <rect x="289" y="620" width="16" height="8" fill="none" stroke="#ffffff" stroke-width="1"
+              transform="rotate(45 297 624)"/>
+    </g>
+
+    <!-- Bases -->
+    <g id="bases">
+        <!-- Home Plate -->
+        <polygon points="400,680 404,676 404,672 396,672 396,676" fill="#ffffff" stroke="#333333" stroke-width="0.8"/>
+        <!-- 1st Base -->
+        <polygon points="473,601 479,607 473,613 467,607" fill="#ffffff" stroke="#555555" stroke-width="0.8"/>
+        <!-- 2nd Base -->
+        <polygon points="400,528 406,534 400,540 394,534" fill="#ffffff" stroke="#555555" stroke-width="0.8"/>
+        <!-- 3rd Base -->
+        <polygon points="327,601 333,607 327,613 321,607" fill="#ffffff" stroke="#555555" stroke-width="0.8"/>
+    </g>
+
+    <!-- Outfield Wall (8ft height = standard line weight 4px with emerald accent) -->
+    <g id="outfield-wall">
+        <path d="M 130 410 Q 230 275 400 214 Q 570 275 665 415" fill="none" stroke="#0e3d23" stroke-width="6"
+              stroke-linecap="round"/>
+        <path d="M 130 410 Q 230 275 400 214 Q 570 275 665 415" fill="none" stroke="#34c759" stroke-width="2"
+              stroke-linecap="round"/>
+    </g>
+
+    <!-- Stadium Accents & Details -->
+    <g id="stadium-accents">
+        <!-- Yellow Foul Poles -->
+        <circle cx="130" cy="410" r="5" fill="#ffd60a" stroke="#000000" stroke-width="1"/>
+        <circle cx="665" cy="415" r="5" fill="#ffd60a" stroke="#000000" stroke-width="1"/>
+        <!-- Distance Markers -->
+        <text x="135" y="395" font-family="sans-serif" font-size="11" font-weight="bold" fill="#ffffff">331</text>
+        <text x="390" y="200" font-family="sans-serif" font-size="11" font-weight="bold" fill="#ffffff">405</text>
+        <text x="645" y="400" font-family="sans-serif" font-size="11" font-weight="bold" fill="#ffffff">326</text>
+        <!-- Stadium Name Label In Concourse -->
+        <text x="400" y="785" font-family="sans-serif" font-size="14" font-weight="bold" fill="#5ac8fa"
+              text-anchor="middle" letter-spacing="2">EMERALD COVE PARK
+        </text>
+    </g>
+</svg>

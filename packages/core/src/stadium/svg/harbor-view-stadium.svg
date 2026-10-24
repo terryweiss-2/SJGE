@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+    <defs>
+        <linearGradient id="stands-grad-hv" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#102133"/>
+            <stop offset="50%" stop-color="#16314d"/>
+            <stop offset="100%" stop-color="#0c1826"/>
+        </linearGradient>
+        <linearGradient id="grass-grad-hv" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#2a7a4c"/>
+            <stop offset="100%" stop-color="#1c5734"/>
+        </linearGradient>
+        <pattern id="lawn-stripes-hv" width="36" height="36" patternUnits="userSpaceOnUse"
+                 patternTransform="rotate(45)">
+            <rect width="18" height="36" fill="#246a41" fill-opacity="0.25"/>
+            <rect x="18" width="18" height="36" fill="#35925c" fill-opacity="0.25"/>
+        </pattern>
+        <radialGradient id="infield-dirt-grad-hv" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#d49661"/>
+            <stop offset="85%" stop-color="#bf7f4b"/>
+            <stop offset="100%" stop-color="#a16434"/>
+        </radialGradient>
+        <linearGradient id="track-grad-hv" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#ba7a44"/>
+            <stop offset="100%" stop-color="#945c2c"/>
+        </linearGradient>
+        <linearGradient id="ocean-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#0984e3"/>
+            <stop offset="100%" stop-color="#74b9ff"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Background & Concourse/Stands -->
+    <g id="background-stands">
+        <rect width="800" height="800" fill="#08101a"/>
+        <!-- Coastal Harbor Stadium Footprint (Deep Navy & Sea Spray Blue) -->
+        <path d="M 120 740 C 40 580 40 280 160 140 C 260 40 540 40 640 140 C 760 280 760 580 680 740 C 600 780 200 780 120 740 Z"
+              fill="url(#stands-grad-hv)" stroke="#1e548a" stroke-width="4"/>
+        <!-- Concourse Rings -->
+        <path d="M 140 720 C 70 570 70 300 180 160 C 270 70 530 70 620 160 C 730 300 730 570 660 720" fill="none"
+              stroke="#2e78c4" stroke-width="2" stroke-dasharray="12,6"/>
+        <path d="M 160 700 C 100 560 100 320 200 190 C 280 100 520 100 600 190 C 700 320 700 560 640 700" fill="none"
+              stroke="#12365c" stroke-width="3"/>
+        <!-- Harbor Boardwalk & Lighthouse Accent in Right Field Plaza -->
+        <rect x="580" y="180" width="70" height="15" rx="4" fill="url(#ocean-grad)" stroke="#ffffff"
+              stroke-width="1.5"/>
+        <polygon points="650,150 642,180 658,180" fill="#ffffff" stroke="#e74c3c" stroke-width="1"/>
+        <circle cx="650" cy="148" r="4" fill="#ffd60a"/>
+    </g>
+
+    <!-- Foul Territory (Large preset) -->
+    <g id="foul-territory">
+        <path d="M 132 412 L 132 680 C 132 760 260 760 400 760 C 540 760 675 760 675 680 L 675 405 L 400 680 Z"
+              fill="#1b5232"/>
+        <path d="M 132 412 L 132 680 C 132 760 260 760 400 760 C 540 760 675 760 675 680 L 675 405" fill="none"
+              stroke="#103a21" stroke-width="3"/>
+    </g>
+
+    <!-- Outfield Grass & Turf Pattern -->
+    <g id="outfield-grass">
+        <!-- LF: 330ft (132,412), LCF: 375ft (235,283), CF: 400ft (400,220), RCF: 380ft (567,277), RF: 338ft (675,405) -->
+        <path d="M 400 680 L 132 412 Q 235 283 400 220 Q 567 277 675 405 Z" fill="url(#grass-grad-hv)"/>
+        <path d="M 400 680 L 132 412 Q 235 283 400 220 Q 567 277 675 405 Z" fill="url(#lawn-stripes-hv)"/>
+    </g>
+
+    <!-- Warning Track -->
+    <g id="warning-track">
+        <path d="M 132 412 Q 235 283 400 220 Q 567 277 675 405 L 660 417 Q 558 295 400 242 Q 245 301 147 424 Z"
+              fill="url(#track-grad-hv)" stroke="#7a461e" stroke-width="1"/>
+        <path d="M 132 650 C 132 750 260 750 400 750 C 540 750 675 750 675 650 L 665 650 C 665 740 540 740 400 740 C 260 740 142 740 142 650 Z"
+              fill="url(#track-grad-hv)"/>
+    </g>
+
+    <!-- Infield Dirt Diamond & Pitcher's Mound -->
+    <g id="infield-dirt">
+        <path d="M 400 480 C 475 480 535 540 535 615 C 535 645 520 675 490 705 L 400 715 L 310 705 C 280 675 265 645 265 615 C 265 540 325 480 400 480 Z"
+              fill="url(#infield-dirt-grad-hv)" stroke="#8c5022" stroke-width="2"/>
+        <polygon points="400,660 470,590 400,520 330,590" fill="#2a7a4c"/>
+        <polygon points="400,660 470,590 400,520 330,590" fill="url(#lawn-stripes-hv)"/>
+        <circle cx="400" cy="610" r="14" fill="#bf7f4b" stroke="#7a441a" stroke-width="1.5"/>
+        <rect x="396" y="609" width="8" height="2.5" fill="#ffffff"/>
+        <circle cx="400" cy="678" r="26" fill="url(#infield-dirt-grad-hv)"/>
+        <circle cx="473" cy="607" r="11" fill="url(#infield-dirt-grad-hv)"/>
+        <circle cx="400" cy="534" r="11" fill="url(#infield-dirt-grad-hv)"/>
+        <circle cx="327" cy="607" r="11" fill="url(#infield-dirt-grad-hv)"/>
+    </g>
+
+    <!-- Base Paths & Chalk Lines -->
+    <g id="base-paths-lines">
+        <line x1="400" y1="680" x2="132" y2="412" stroke="#ffffff" stroke-width="2.5"/>
+        <line x1="400" y1="680" x2="675" y2="405" stroke="#ffffff" stroke-width="2.5"/>
+        <line x1="400" y1="680" x2="473" y2="607" stroke="#ffffff" stroke-width="2"/>
+        <line x1="473" y1="607" x2="400" y2="534" stroke="#ffffff" stroke-width="2"/>
+        <line x1="400" y1="534" x2="327" y2="607" stroke="#ffffff" stroke-width="2"/>
+        <line x1="327" y1="607" x2="400" y2="680" stroke="#ffffff" stroke-width="2"/>
+        <rect x="388" y="672" width="6" height="12" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+        <rect x="406" y="672" width="6" height="12" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+        <rect x="495" y="620" width="16" height="8" fill="none" stroke="#ffffff" stroke-width="1"
+              transform="rotate(-45 503 624)"/>
+        <rect x="289" y="620" width="16" height="8" fill="none" stroke="#ffffff" stroke-width="1"
+              transform="rotate(45 297 624)"/>
+    </g>
+
+    <!-- Bases -->
+    <g id="bases">
+        <polygon points="400,680 404,676 404,672 396,672 396,676" fill="#ffffff" stroke="#333333" stroke-width="0.8"/>
+        <polygon points="473,601 479,607 473,613 467,607" fill="#ffffff" stroke="#555555" stroke-width="0.8"/>
+        <polygon points="400,528 406,534 400,540 394,534" fill="#ffffff" stroke="#555555" stroke-width="0.8"/>
+        <polygon points="327,601 333,607 327,613 321,607" fill="#ffffff" stroke="#555555" stroke-width="0.8"/>
+    </g>
+
+    <!-- Outfield Wall (LF-CF 9ft standard, RCF-RF 15ft High Coastal Wall) -->
+    <g id="outfield-wall">
+        <path d="M 132 412 Q 235 283 400 220" fill="none" stroke="#123321" stroke-width="6" stroke-linecap="round"/>
+        <path d="M 132 412 Q 235 283 400 220" fill="none" stroke="#2ecc71" stroke-width="2" stroke-linecap="round"/>
+        <path d="M 400 220 Q 567 277 675 405" fill="none" stroke="#102e52" stroke-width="9" stroke-linecap="round"/>
+        <path d="M 400 220 Q 567 277 675 405" fill="none" stroke="#00cec9" stroke-width="2.8" stroke-linecap="round"/>
+        <!-- 15ft Wall Badge -->
+        <rect x="625" y="335" width="42" height="15" rx="3" fill="#102e52" stroke="#00cec9" stroke-width="1"/>
+        <text x="646" y="346" font-family="sans-serif" font-size="8" font-weight="bold" fill="#ffffff"
+              text-anchor="middle">15 FT
+        </text>
+    </g>
+
+    <!-- Stadium Accents & Details -->
+    <g id="stadium-accents">
+        <circle cx="132" cy="412" r="5" fill="#ffd60a" stroke="#000000" stroke-width="1"/>
+        <circle cx="675" cy="405" r="5" fill="#ffd60a" stroke="#000000" stroke-width="1"/>
+        <text x="136" y="398" font-family="sans-serif" font-size="11" font-weight="bold" fill="#ffffff">330</text>
+        <text x="390" y="206" font-family="sans-serif" font-size="11" font-weight="bold" fill="#ffffff">400</text>
+        <text x="655" y="390" font-family="sans-serif" font-size="11" font-weight="bold" fill="#ffffff">338</text>
+        <!-- Busan Header -->
+        <rect x="330" y="745" width="140" height="18" rx="4" fill="#16314d" stroke="#00cec9" stroke-width="1"/>
+        <text x="400" y="758" font-family="sans-serif" font-size="10" font-weight="bold" fill="#74b9ff"
+              text-anchor="middle">BUSAN, KR
+        </text>
+        <text x="400" y="785" font-family="sans-serif" font-size="14" font-weight="bold" fill="#00cec9"
+              text-anchor="middle" letter-spacing="2">HARBOR VIEW STADIUM
+        </text>
+    </g>
+</svg>

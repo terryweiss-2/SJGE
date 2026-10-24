@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+    <defs>
+        <linearGradient id="stands-grad-so" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#2c1a14"/>
+            <stop offset="50%" stop-color="#42261d"/>
+            <stop offset="100%" stop-color="#21130e"/>
+        </linearGradient>
+        <linearGradient id="grass-grad-so" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#3b7d42"/>
+            <stop offset="100%" stop-color="#25582c"/>
+        </linearGradient>
+        <pattern id="lawn-stripes-so" width="36" height="36" patternUnits="userSpaceOnUse"
+                 patternTransform="rotate(30)">
+            <rect width="18" height="36" fill="#2d6835" fill-opacity="0.25"/>
+            <rect x="18" width="18" height="36" fill="#448d4c" fill-opacity="0.25"/>
+        </pattern>
+        <radialGradient id="infield-dirt-grad-so" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#d98c55"/>
+            <stop offset="85%" stop-color="#c4753c"/>
+            <stop offset="100%" stop-color="#a65c2a"/>
+        </radialGradient>
+        <linearGradient id="track-grad-so" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#b86b3b"/>
+            <stop offset="100%" stop-color="#944e24"/>
+        </linearGradient>
+        <linearGradient id="oasis-pool-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#29b6f6"/>
+            <stop offset="100%" stop-color="#0288d1"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Background & Concourse/Stands -->
+    <g id="background-stands">
+        <rect width="800" height="800" fill="#140b07"/>
+        <!-- Desert Terracotta Seating Bowl -->
+        <path d="M 120 730 C 40 570 40 270 160 130 C 260 30 540 30 640 130 C 760 270 760 570 680 730 C 600 760 200 760 120 730 Z"
+              fill="url(#stands-grad-so)" stroke="#8d4925" stroke-width="4"/>
+        <!-- Sandstone Concourse Rings -->
+        <path d="M 140 710 C 70 560 70 290 180 150 C 270 60 530 60 620 150 C 730 290 730 560 660 710" fill="none"
+              stroke="#ad6237" stroke-width="2" stroke-dasharray="10,6"/>
+        <path d="M 160 690 C 100 550 100 310 200 180 C 280 90 520 90 600 180 C 700 310 700 550 640 690" fill="none"
+              stroke="#542b16" stroke-width="3"/>
+        <!-- Right-Center Oasis Pool Pavilion Feature -->
+        <rect x="580" y="190" width="60" height="30" rx="8" fill="url(#oasis-pool-grad)" stroke="#ffffff"
+              stroke-width="2"/>
+        <text x="610" y="209" font-family="sans-serif" font-size="8" font-weight="bold" fill="#ffffff"
+              text-anchor="middle">OASIS POOL
+        </text>
+    </g>
+
+    <!-- Foul Territory (Small preset) -->
+    <g id="foul-territory">
+        <path d="M 124 404 L 150 640 C 150 715 280 715 400 715 C 520 715 650 715 650 640 L 664 416 L 400 680 Z"
+              fill="#204f27"/>
+        <path d="M 124 404 L 150 640 C 150 715 280 715 400 715 C 520 715 650 715 650 640 L 664 416" fill="none"
+              stroke="#12381a" stroke-width="3"/>
+    </g>
+
+    <!-- Outfield Grass & Turf Pattern -->
+    <g id="outfield-grass">
+        <!-- LF: 340ft (124,404), LCF: 382ft (232,274), CF: 407ft (400,212), RCF: 362ft (559,295), RF: 325ft (664,416) -->
+        <path d="M 400 680 L 124 404 Q 232 274 400 212 Q 559 295 664 416 Z" fill="url(#grass-grad-so)"/>
+        <path d="M 400 680 L 124 404 Q 232 274 400 212 Q 559 295 664 416 Z" fill="url(#lawn-stripes-so)"/>
+    </g>
+
+    <!-- Warning Track (Desert Clay) -->
+    <g id="warning-track">
+        <path d="M 124 404 Q 232 274 400 212 Q 559 295 664 416 L 650 428 Q 550 312 400 234 Q 242 292 139 416 Z"
+              fill="url(#track-grad-so)" stroke="#783815" stroke-width="1"/>
+        <path d="M 150 620 C 150 705 280 705 400 705 C 520 705 650 705 650 620 L 640 620 C 640 695 520 695 400 695 C 280 695 160 695 160 620 Z"
+              fill="url(#track-grad-so)"/>
+    </g>
+
+    <!-- Infield Dirt Diamond & Pitcher's Mound -->
+    <g id="infield-dirt">
+        <path d="M 400 480 C 475 480 535 540 535 615 C 535 645 520 675 490 705 L 400 715 L 310 705 C 280 675 265 645 265 615 C 265 540 325 480 400 480 Z"
+              fill="url(#infield-dirt-grad-so)" stroke="#8a471e" stroke-width="2"/>
+        <polygon points="400,660 470,590 400,520 330,590" fill="#3b7d42"/>
+        <polygon points="400,660 470,590 400,520 330,590" fill="url(#lawn-stripes-so)"/>
+        <circle cx="400" cy="610" r="14" fill="#c4753c" stroke="#783815" stroke-width="1.5"/>
+        <rect x="396" y="609" width="8" height="2.5" fill="#ffffff"/>
+        <circle cx="400" cy="678" r="26" fill="url(#infield-dirt-grad-so)"/>
+        <circle cx="473" cy="607" r="11" fill="url(#infield-dirt-grad-so)"/>
+        <circle cx="400" cy="534" r="11" fill="url(#infield-dirt-grad-so)"/>
+        <circle cx="327" cy="607" r="11" fill="url(#infield-dirt-grad-so)"/>
+    </g>
+
+    <!-- Base Paths & Chalk Lines -->
+    <g id="base-paths-lines">
+        <line x1="400" y1="680" x2="124" y2="404" stroke="#ffffff" stroke-width="2.5"/>
+        <line x1="400" y1="680" x2="664" y2="416" stroke="#ffffff" stroke-width="2.5"/>
+        <line x1="400" y1="680" x2="473" y2="607" stroke="#ffffff" stroke-width="2"/>
+        <line x1="473" y1="607" x2="400" y2="534" stroke="#ffffff" stroke-width="2"/>
+        <line x1="400" y1="534" x2="327" y2="607" stroke="#ffffff" stroke-width="2"/>
+        <line x1="327" y1="607" x2="400" y2="680" stroke="#ffffff" stroke-width="2"/>
+        <rect x="388" y="672" width="6" height="12" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+        <rect x="406" y="672" width="6" height="12" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+        <rect x="495" y="620" width="16" height="8" fill="none" stroke="#ffffff" stroke-width="1"
+              transform="rotate(-45 503 624)"/>
+        <rect x="289" y="620" width="16" height="8" fill="none" stroke="#ffffff" stroke-width="1"
+              transform="rotate(45 297 624)"/>
+    </g>
+
+    <!-- Bases -->
+    <g id="bases">
+        <polygon points="400,680 404,676 404,672 396,672 396,676" fill="#ffffff" stroke="#333333" stroke-width="0.8"/>
+        <polygon points="473,601 479,607 473,613 467,607" fill="#ffffff" stroke="#555555" stroke-width="0.8"/>
+        <polygon points="400,528 406,534 400,540 394,534" fill="#ffffff" stroke="#555555" stroke-width="0.8"/>
+        <polygon points="327,601 333,607 327,613 321,607" fill="#ffffff" stroke="#555555" stroke-width="0.8"/>
+    </g>
+
+    <!-- Outfield Wall (LF: 8ft, RCF: 12ft, RF: 20ft Porch Wall) -->
+    <g id="outfield-wall">
+        <!-- LF to CF 8ft Standard Wall -->
+        <path d="M 124 404 Q 232 274 400 212" fill="none" stroke="#1b4222" stroke-width="5" stroke-linecap="round"/>
+        <path d="M 124 404 Q 232 274 400 212" fill="none" stroke="#4cd964" stroke-width="2" stroke-linecap="round"/>
+        <!-- CF to RCF 12ft Wall -->
+        <path d="M 400 212 Q 480 250 559 295" fill="none" stroke="#5c2c16" stroke-width="7" stroke-linecap="round"/>
+        <path d="M 400 212 Q 480 250 559 295" fill="none" stroke="#f39c12" stroke-width="2.5" stroke-linecap="round"/>
+        <!-- RCF to RF 20ft Tall Right Porch Wall -->
+        <path d="M 559 295 Q 610 355 664 416" fill="none" stroke="#6e1f0e" stroke-width="11" stroke-linecap="round"/>
+        <path d="M 559 295 Q 610 355 664 416" fill="none" stroke="#ffd60a" stroke-width="3" stroke-linecap="round"/>
+        <!-- 20ft Porch Badge -->
+        <rect x="625" y="340" width="52" height="15" rx="3" fill="#6e1f0e" stroke="#ffd60a" stroke-width="1"/>
+        <text x="651" y="351" font-family="sans-serif" font-size="8" font-weight="bold" fill="#ffd60a"
+              text-anchor="middle">20 FT PORCH
+        </text>
+    </g>
+
+    <!-- Stadium Accents & Details -->
+    <g id="stadium-accents">
+        <circle cx="124" cy="404" r="5" fill="#ffd60a" stroke="#000000" stroke-width="1"/>
+        <circle cx="664" cy="416" r="5" fill="#ffd60a" stroke="#000000" stroke-width="1"/>
+        <text x="128" y="388" font-family="sans-serif" font-size="11" font-weight="bold" fill="#ffffff">340</text>
+        <text x="390" y="198" font-family="sans-serif" font-size="11" font-weight="bold" fill="#ffffff">407</text>
+        <text x="644" y="402" font-family="sans-serif" font-size="11" font-weight="bold" fill="#ffffff">325</text>
+        <!-- Desert Theme Title -->
+        <text x="400" y="780" font-family="sans-serif" font-size="14" font-weight="bold" fill="#f4a261"
+              text-anchor="middle" letter-spacing="2">SONORAN OASIS GROUNDS
+        </text>
+    </g>
+</svg>
