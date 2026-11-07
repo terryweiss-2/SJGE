@@ -11,7 +11,10 @@
     "yaml": "^2.5.0"
   },
   "scripts": {
-    "test": "node --test",
+    "test": "tap",
     "schemas": "node scripts/emit-schemas.js"
+  },
+  "devDependencies": {
+    "tap": "^21.0.0"
   }
 }

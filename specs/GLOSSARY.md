@@ -7,7 +7,7 @@
 * Tendencies - A player's tendencies are a summary of their history. Tendencies are used to determine a player's
   behavior in a game.
 * Training - Players can improve certain attributes through training sessions.
-* Skills - Player attributes that can improved are called skills.
+* Skills - Player attributes that can be improved are called skills.
 * Team - A team is a group of players that work together to achieve a common goal. Players play a role on a team, i.e. a
   position in baseball, or an engineer in motorsport. Skills are applied to these roles to determine success. For
   instance, if a player does not throw well, they should not be a pitcher.

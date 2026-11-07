@@ -1,7 +1,7 @@
-import test from 'node:test';
-import assert from 'node:assert/strict';
+import t from 'tap';
 import {name} from '../src/index.js';
 
-test('motorsport exports its name', () => {
-    assert.equal(name, '@sjge/motorsport');
+t.test('motorsport exports its name', (t) => {
+    t.equal(name, '@sjge/motorsport');
+    t.end();
 });

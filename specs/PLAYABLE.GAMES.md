@@ -83,21 +83,31 @@ Teams are groups of players that compete against each other in a league.
       below this.
     - Nationality (Can be edited, but not duriing gameplay)
     - Name (Can be edited, but not duriing gameplay)
-- Players have skills that determine position
-    - Throw - how well they throw a ball. Higher values mean longer throws, not faster ones
-    - Pitch - How well they can throw pitches. These are special players there should be fewer pitchers that position
-      players, perhaps 1/3 to 1/4 pitchers
+- Players have skills that determine performance
+    - Throw - how well they throw a ball. Higher values mean longer throws
+    - Pitch - How well they can throw pitches. These are special players and there should be fewer pitchers than
+      position
+      players, the percentage to be tuned by configuration
         - Fastball - How well they can throw a fastball. Useful to create strikeouts
         - Curveball - How well they play against power hitters
         - Slider - difficult pitch, but effective against all hitters.
-    - Speed - How fast they can run. Deteremines wins on stolen bases and bunts and in the outfield
+    - Speed - How fast they can run. Deteremines outcomes on stolen bases and bunts and in the outfield
     - Power - How far they can hit a ball
-    - Small ball - How well they hit for percentage and how well they get a bint down
-    - See - How well the batter sees a patch. Higher numbers mean they can see the ball better and hit it more often.
-      They
-      also strike out less
+    - Percentage - How well they hit for percentage and how well they get a bunt down
+    - Catch - How well they can catch a ball. Higher values mean they can catch the ball better and throw it back to the
+      infielder
+    - PitchCaller - This is specific to the cather, it determines how well they can call pitches that will get the
+      batter out, given the pitcher's stas. IOW, the catcher should consider the pitcher's performance when determining
+      what pitch to throw.
+    - Vision - How well the batter sees a patch. Higher numbers mean they can see the ball better and hit it more often.
+      They also strike out less
+    - Stamina - how long it takes for them to get tired. Higher values mean they can play longer before they get tired.
+      This also affects training.
+- Players have dynamic attributes. These attributes can change during gameplay
+    - Health - lower health means lower performance. Health degrades over time based on the player's stamina
 - When players are created, they should be assigned a suggested position based on their skills when in free agency. Once
   they are on a team, the manager decides their position.
+- Position skills
 
 ## Motorsport
 

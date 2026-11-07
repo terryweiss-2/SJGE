@@ -1,0 +1,3750 @@
+- _id: emerald-cove-park
+  name: Emerald Cove Park
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 38500
+  location:
+    city: Seattle
+    region: Washington
+    country: US
+    lat: 47.5914
+    lng: -122.3325
+    timezone: America/Los_Angeles
+  climate:
+    type: temperate
+    altitudeFt: 15
+    avgTempF: 62.5
+  dimensions:
+    fenceFt:
+      lf: 331
+      lcf: 378
+      cf: 405
+      rcf: 381
+      rf: 326
+    wallHeightFt:
+      lf: 8
+      lcf: 8
+      cf: 8
+      rcf: 8
+      rf: 8
+    foulTerritory: large
+- _id: highland-peak-field
+  name: Highland Peak Field
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 46800
+  location:
+    city: Denver
+    region: Colorado
+    country: US
+    lat: 39.7559
+    lng: -104.9942
+    timezone: America/Denver
+  climate:
+    type: continental
+    altitudeFt: 5280
+    avgTempF: 50.2
+  dimensions:
+    fenceFt:
+      lf: 347
+      lcf: 390
+      cf: 415
+      rcf: 390
+      rf: 350
+    wallHeightFt:
+      lf: 8
+      lcf: 8
+      cf: 8
+      rcf: 8
+      rf: 14
+    foulTerritory: medium
+- _id: rust-belt-yards
+  name: Rust Belt Yards
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 34800
+  location:
+    city: Cleveland
+    region: Ohio
+    country: US
+    lat: 41.4962
+    lng: -81.6852
+    timezone: America/New_York
+  climate:
+    type: continental
+    altitudeFt: 650
+    avgTempF: 51.5
+  dimensions:
+    fenceFt:
+      lf: 325
+      lcf: 370
+      cf: 400
+      rcf: 375
+      rf: 325
+    wallHeightFt:
+      lf: 28
+      lcf: 19
+      cf: 9
+      rcf: 9
+      rf: 9
+    foulTerritory: small
+- _id: bayou-coliseum
+  name: Bayou Coliseum
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 42000
+  location:
+    city: New Orleans
+    region: Louisiana
+    country: US
+    lat: 29.9511
+    lng: -90.0812
+    timezone: America/Chicago
+  climate:
+    type: dome
+    altitudeFt: -6
+    avgTempF: 72
+  dimensions:
+    fenceFt:
+      lf: 330
+      lcf: 375
+      cf: 400
+      rcf: 375
+      rf: 330
+    wallHeightFt:
+      lf: 10
+      lcf: 10
+      cf: 10
+      rcf: 10
+      rf: 10
+    foulTerritory: medium
+- _id: sonoran-oasis-grounds
+  name: Sonoran Oasis Grounds
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 31200
+  location:
+    city: Phoenix
+    region: Arizona
+    country: US
+    lat: 33.4453
+    lng: -112.0667
+    timezone: America/Phoenix
+  climate:
+    type: arid
+    altitudeFt: 1086
+    avgTempF: 75.3
+  dimensions:
+    fenceFt:
+      lf: 340
+      lcf: 382
+      cf: 407
+      rcf: 362
+      rf: 325
+    wallHeightFt:
+      lf: 8
+      lcf: 8
+      cf: 8
+      rcf: 12
+      rf: 20
+    foulTerritory: small
+- _id: metro-dome-tokyo
+  name: Metro Dome Tokyo
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 45000
+  location:
+    city: Tokyo
+    region: Tokyo
+    country: JP
+    lat: 35.7056
+    lng: 139.7519
+    timezone: Asia/Tokyo
+  climate:
+    type: dome
+    altitudeFt: 40
+    avgTempF: 71.5
+  dimensions:
+    fenceFt:
+      lf: 328
+      lcf: 362
+      cf: 395
+      rcf: 362
+      rf: 328
+    wallHeightFt:
+      lf: 13
+      lcf: 13
+      cf: 13
+      rcf: 13
+      rf: 13
+    foulTerritory: medium
+- _id: estadio-del-sol
+  name: Estadio del Sol
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 22000
+  location:
+    city: Santo Domingo
+    region: Distrito Nacional
+    country: DO
+    lat: 18.4861
+    lng: -69.9312
+    timezone: America/Santo_Domingo
+  climate:
+    type: tropical
+    altitudeFt: 140
+    avgTempF: 79.2
+  dimensions:
+    fenceFt:
+      lf: 335
+      lcf: 385
+      cf: 410
+      rcf: 385
+      rf: 335
+    wallHeightFt:
+      lf: 8
+      lcf: 8
+      cf: 8
+      rcf: 8
+      rf: 8
+    foulTerritory: small
+- _id: parque-metropolitano
+  name: Parque Metropolitano
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 21900
+  location:
+    city: Monterrey
+    region: Nuevo Leon
+    country: MX
+    lat: 25.6866
+    lng: -100.3161
+    timezone: America/Monterrey
+  climate:
+    type: arid
+    altitudeFt: 1770
+    avgTempF: 73
+  dimensions:
+    fenceFt:
+      lf: 325
+      lcf: 360
+      cf: 395
+      rcf: 360
+      rf: 325
+    wallHeightFt:
+      lf: 8
+      lcf: 8
+      cf: 8
+      rcf: 8
+      rf: 8
+    foulTerritory: medium
+- _id: great-northern-field
+  name: Great Northern Field
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 28500
+  location:
+    city: Montreal
+    region: Quebec
+    country: CA
+    lat: 45.5017
+    lng: -73.5673
+    timezone: America/Toronto
+  climate:
+    type: continental
+    altitudeFt: 110
+    avgTempF: 44.8
+  dimensions:
+    fenceFt:
+      lf: 345
+      lcf: 385
+      cf: 410
+      rcf: 385
+      rf: 345
+    wallHeightFt:
+      lf: 12
+      lcf: 12
+      cf: 12
+      rcf: 12
+      rf: 12
+    foulTerritory: large
+- _id: harbor-view-stadium
+  name: Harbor View Stadium
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 24500
+  location:
+    city: Busan
+    region: Yeongnam
+    country: KR
+    lat: 35.1796
+    lng: 129.0756
+    timezone: Asia/Seoul
+  climate:
+    type: temperate
+    altitudeFt: 12
+    avgTempF: 58.4
+  dimensions:
+    fenceFt:
+      lf: 330
+      lcf: 375
+      cf: 400
+      rcf: 380
+      rf: 338
+    wallHeightFt:
+      lf: 9
+      lcf: 9
+      cf: 9
+      rcf: 15
+      rf: 15
+    foulTerritory: large
+- _id: kestrel-yards
+  name: Kestrel Yards
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 54000
+  location:
+    city: Toronto
+    region: Ontario
+    country: CA
+    lat: 43.657
+    lng: -79.4252
+    timezone: America/Toronto
+  climate:
+    type: continental
+    altitudeFt: 250
+    avgTempF: 47.1
+  dimensions:
+    fenceFt:
+      lf: 349
+      lcf: 378
+      cf: 411
+      rcf: 395
+      rf: 332
+    wallHeightFt:
+      lf: 11
+      lcf: 18
+      cf: 15
+      rcf: 5
+      rf: 7
+    foulTerritory: medium
+- _id: granite-grounds
+  name: Granite Grounds
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 43100
+  location:
+    city: Chicago
+    region: Illinois
+    country: US
+    lat: 41.8699
+    lng: -87.5954
+    timezone: America/Chicago
+  climate:
+    type: continental
+    altitudeFt: 594
+    avgTempF: 50.6
+  dimensions:
+    fenceFt:
+      lf: 356
+      lcf: 390
+      cf: 392
+      rcf: 419
+      rf: 331
+    wallHeightFt:
+      lf: 8
+      lcf: 7
+      cf: 16
+      rcf: 8
+      rf: 16
+    foulTerritory: medium
+- _id: maple-grounds
+  name: Maple Grounds
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 54000
+  location:
+    city: Caracas
+    region: Capital District
+    country: VE
+    lat: 10.5126
+    lng: -66.9151
+    timezone: America/Caracas
+  climate:
+    type: tropical
+    altitudeFt: 3025
+    avgTempF: 71.1
+  dimensions:
+    fenceFt:
+      lf: 328
+      lcf: 380
+      cf: 403
+      rcf: 399
+      rf: 351
+    wallHeightFt:
+      lf: 18
+      lcf: 12
+      cf: 12
+      rcf: 4
+      rf: 3
+    foulTerritory: medium
+- _id: northern-arena
+  name: Northern Arena
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 34100
+  location:
+    city: Pittsburgh
+    region: Pennsylvania
+    country: US
+    lat: 40.3954
+    lng: -79.9726
+    timezone: America/New_York
+  climate:
+    type: continental
+    altitudeFt: 1223
+    avgTempF: 51.3
+  dimensions:
+    fenceFt:
+      lf: 356
+      lcf: 384
+      cf: 432
+      rcf: 349
+      rf: 350
+    wallHeightFt:
+      lf: 8
+      lcf: 9
+      cf: 5
+      rcf: 14
+      rf: 5
+    foulTerritory: medium
+- _id: granite-arena
+  name: Granite Arena
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 36400
+  location:
+    city: Caracas
+    region: Capital District
+    country: VE
+    lat: 10.5225
+    lng: -66.8949
+    timezone: America/Caracas
+  climate:
+    type: tropical
+    altitudeFt: 3025
+    avgTempF: 71.9
+  dimensions:
+    fenceFt:
+      lf: 337
+      lcf: 340
+      cf: 405
+      rcf: 350
+      rf: 355
+    wallHeightFt:
+      lf: 12
+      lcf: 18
+      cf: 10
+      rcf: 4
+      rf: 12
+    foulTerritory: medium
+- _id: birch-yards
+  name: Birch Yards
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 58500
+  location:
+    city: Montreal
+    region: Quebec
+    country: CA
+    lat: 45.5115
+    lng: -73.5569
+    timezone: America/Toronto
+  climate:
+    type: continental
+    altitudeFt: 118
+    avgTempF: 43.6
+  dimensions:
+    fenceFt:
+      lf: 344
+      lcf: 392
+      cf: 440
+      rcf: 350
+      rf: 351
+    wallHeightFt:
+      lf: 4
+      lcf: 14
+      cf: 15
+      rcf: 5
+      rf: 20
+    foulTerritory: medium
+- _id: sunset-stadium
+  name: Sunset Stadium
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 22900
+  location:
+    city: Monterrey
+    region: Nuevo Leon
+    country: MX
+    lat: 25.6653
+    lng: -100.2997
+    timezone: America/Monterrey
+  climate:
+    type: arid
+    altitudeFt: 1778
+    avgTempF: 73
+  dimensions:
+    fenceFt:
+      lf: 350
+      lcf: 398
+      cf: 394
+      rcf: 370
+      rf: 358
+    wallHeightFt:
+      lf: 7
+      lcf: 8
+      cf: 12
+      rcf: 6
+      rf: 19
+    foulTerritory: large
+- _id: amber-yards
+  name: Amber Yards
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 48000
+  location:
+    city: Caracas
+    region: Capital District
+    country: VE
+    lat: 10.4935
+    lng: -66.9535
+    timezone: America/Caracas
+  climate:
+    type: tropical
+    altitudeFt: 3025
+    avgTempF: 72
+  dimensions:
+    fenceFt:
+      lf: 345
+      lcf: 405
+      cf: 394
+      rcf: 389
+      rf: 359
+    wallHeightFt:
+      lf: 5
+      lcf: 4
+      cf: 20
+      rcf: 15
+      rf: 19
+    foulTerritory: large
+- _id: aspen-field
+  name: Aspen Field
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 36700
+  location:
+    city: Toronto
+    region: Ontario
+    country: CA
+    lat: 43.6565
+    lng: -79.4281
+    timezone: America/Toronto
+  climate:
+    type: continental
+    altitudeFt: 250
+    avgTempF: 46.1
+  dimensions:
+    fenceFt:
+      lf: 343
+      lcf: 373
+      cf: 411
+      rcf: 387
+      rf: 364
+    wallHeightFt:
+      lf: 7
+      lcf: 16
+      cf: 9
+      rcf: 9
+      rf: 8
+    foulTerritory: medium
+- _id: clearwater-grounds
+  name: Clearwater Grounds
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 45700
+  location:
+    city: Minneapolis
+    region: Minnesota
+    country: US
+    lat: 44.9281
+    lng: -93.3019
+    timezone: America/Chicago
+  climate:
+    type: continental
+    altitudeFt: 830
+    avgTempF: 44.8
+  dimensions:
+    fenceFt:
+      lf: 358
+      lcf: 406
+      cf: 422
+      rcf: 399
+      rf: 329
+    wallHeightFt:
+      lf: 5
+      lcf: 6
+      cf: 17
+      rcf: 17
+      rf: 4
+    foulTerritory: large
+- _id: cinder-park
+  name: Cinder Park
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 55300
+  location:
+    city: Nashville
+    region: Tennessee
+    country: US
+    lat: 36.1766
+    lng: -86.7595
+    timezone: America/Chicago
+  climate:
+    type: temperate
+    altitudeFt: 597
+    avgTempF: 59.7
+  dimensions:
+    fenceFt:
+      lf: 356
+      lcf: 371
+      cf: 401
+      rcf: 351
+      rf: 325
+    wallHeightFt:
+      lf: 15
+      lcf: 16
+      cf: 6
+      rcf: 14
+      rf: 13
+    foulTerritory: large
+- _id: sable-yards
+  name: Sable Yards
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 41100
+  location:
+    city: Tokyo
+    region: Tokyo
+    country: JP
+    lat: 35.703
+    lng: 139.6256
+    timezone: Asia/Tokyo
+  climate:
+    type: dome
+    altitudeFt: 130
+    avgTempF: 72
+  dimensions:
+    fenceFt:
+      lf: 365
+      lcf: 410
+      cf: 437
+      rcf: 371
+      rf: 342
+    wallHeightFt:
+      lf: 5
+      lcf: 11
+      cf: 20
+      rcf: 11
+      rf: 4
+    foulTerritory: small
+- _id: beacon-park
+  name: Beacon Park
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 42800
+  location:
+    city: Taipei
+    region: Taipei
+    country: TW
+    lat: 25.0062
+    lng: 121.6088
+    timezone: Asia/Taipei
+  climate:
+    type: tropical
+    altitudeFt: 30
+    avgTempF: 71.2
+  dimensions:
+    fenceFt:
+      lf: 359
+      lcf: 345
+      cf: 409
+      rcf: 370
+      rf: 361
+    wallHeightFt:
+      lf: 7
+      lcf: 10
+      cf: 5
+      rcf: 5
+      rf: 13
+    foulTerritory: medium
+- _id: willow-stadium
+  name: Willow Stadium
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 30300
+  location:
+    city: Tampa
+    region: Florida
+    country: US
+    lat: 27.951
+    lng: -82.4127
+    timezone: America/New_York
+  climate:
+    type: tropical
+    altitudeFt: 48
+    avgTempF: 73.1
+  dimensions:
+    fenceFt:
+      lf: 344
+      lcf: 350
+      cf: 422
+      rcf: 347
+      rf: 331
+    wallHeightFt:
+      lf: 10
+      lcf: 7
+      cf: 3
+      rcf: 16
+      rf: 6
+    foulTerritory: medium
+- _id: quarry-grounds
+  name: Quarry Grounds
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 35100
+  location:
+    city: Toronto
+    region: Ontario
+    country: CA
+    lat: 43.679
+    lng: -79.341
+    timezone: America/Toronto
+  climate:
+    type: continental
+    altitudeFt: 250
+    avgTempF: 46.7
+  dimensions:
+    fenceFt:
+      lf: 354
+      lcf: 350
+      cf: 424
+      rcf: 414
+      rf: 330
+    wallHeightFt:
+      lf: 4
+      lcf: 12
+      cf: 4
+      rcf: 19
+      rf: 19
+    foulTerritory: medium
+- _id: pelican-yards
+  name: Pelican Yards
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 37700
+  location:
+    city: Havana
+    region: La Habana
+    country: CU
+    lat: 23.0861
+    lng: -82.3846
+    timezone: America/Havana
+  climate:
+    type: tropical
+    altitudeFt: 79
+    avgTempF: 77.4
+  dimensions:
+    fenceFt:
+      lf: 353
+      lcf: 398
+      cf: 411
+      rcf: 374
+      rf: 355
+    wallHeightFt:
+      lf: 3
+      lcf: 5
+      cf: 16
+      rcf: 20
+      rf: 5
+    foulTerritory: small
+- _id: bronze-park
+  name: Bronze Park
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 46000
+  location:
+    city: Taipei
+    region: Taipei
+    country: TW
+    lat: 25.0122
+    lng: 121.5477
+    timezone: Asia/Taipei
+  climate:
+    type: tropical
+    altitudeFt: 30
+    avgTempF: 72.4
+  dimensions:
+    fenceFt:
+      lf: 355
+      lcf: 418
+      cf: 431
+      rcf: 371
+      rf: 361
+    wallHeightFt:
+      lf: 13
+      lcf: 12
+      cf: 12
+      rcf: 8
+      rf: 4
+    foulTerritory: medium
+- _id: heron-grounds
+  name: Heron Grounds
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 46800
+  location:
+    city: St. Louis
+    region: Missouri
+    country: US
+    lat: 38.605
+    lng: -90.2194
+    timezone: America/Chicago
+  climate:
+    type: continental
+    altitudeFt: 466
+    avgTempF: 56.2
+  dimensions:
+    fenceFt:
+      lf: 361
+      lcf: 347
+      cf: 412
+      rcf: 345
+      rf: 341
+    wallHeightFt:
+      lf: 10
+      lcf: 13
+      cf: 6
+      rcf: 4
+      rf: 19
+    foulTerritory: medium
+- _id: summit-stadium
+  name: Summit Stadium
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 20300
+  location:
+    city: Nashville
+    region: Tennessee
+    country: US
+    lat: 36.1496
+    lng: -86.7763
+    timezone: America/Chicago
+  climate:
+    type: temperate
+    altitudeFt: 597
+    avgTempF: 60.1
+  dimensions:
+    fenceFt:
+      lf: 354
+      lcf: 417
+      cf: 398
+      rcf: 350
+      rf: 359
+    wallHeightFt:
+      lf: 14
+      lcf: 14
+      cf: 4
+      rcf: 6
+      rf: 5
+    foulTerritory: small
+- _id: aspen-ballpark
+  name: Aspen Ballpark
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 34800
+  location:
+    city: Monterrey
+    region: Nuevo Leon
+    country: MX
+    lat: 25.6378
+    lng: -100.3435
+    timezone: America/Monterrey
+  climate:
+    type: dome
+    altitudeFt: 1778
+    avgTempF: 72
+  dimensions:
+    fenceFt:
+      lf: 357
+      lcf: 340
+      cf: 391
+      rcf: 380
+      rf: 360
+    wallHeightFt:
+      lf: 11
+      lcf: 3
+      cf: 9
+      rcf: 3
+      rf: 19
+    foulTerritory: small
+- _id: eagle-park
+  name: Eagle Park
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 36600
+  location:
+    city: Dallas
+    region: Texas
+    country: US
+    lat: 32.8025
+    lng: -96.7697
+    timezone: America/Chicago
+  climate:
+    type: dome
+    altitudeFt: 430
+    avgTempF: 72
+  dimensions:
+    fenceFt:
+      lf: 341
+      lcf: 378
+      cf: 421
+      rcf: 393
+      rf: 353
+    wallHeightFt:
+      lf: 18
+      lcf: 8
+      cf: 14
+      rcf: 10
+      rf: 11
+    foulTerritory: medium
+- _id: harvest-arena
+  name: Harvest Arena
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 22600
+  location:
+    city: Miami
+    region: Florida
+    country: US
+    lat: 25.7751
+    lng: -80.2291
+    timezone: America/New_York
+  climate:
+    type: tropical
+    altitudeFt: 6
+    avgTempF: 77.3
+  dimensions:
+    fenceFt:
+      lf: 334
+      lcf: 399
+      cf: 439
+      rcf: 368
+      rf: 325
+    wallHeightFt:
+      lf: 17
+      lcf: 6
+      cf: 10
+      rcf: 6
+      rf: 18
+    foulTerritory: small
+- _id: kestrel-ballpark
+  name: Kestrel Ballpark
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 56200
+  location:
+    city: Osaka
+    region: Osaka
+    country: JP
+    lat: 34.6836
+    lng: 135.5078
+    timezone: Asia/Tokyo
+  climate:
+    type: temperate
+    altitudeFt: 40
+    avgTempF: 61.7
+  dimensions:
+    fenceFt:
+      lf: 339
+      lcf: 342
+      cf: 393
+      rcf: 389
+      rf: 335
+    wallHeightFt:
+      lf: 4
+      lcf: 7
+      cf: 8
+      rcf: 11
+      rf: 12
+    foulTerritory: medium
+- _id: prairie-arena
+  name: Prairie Arena
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 24700
+  location:
+    city: Houston
+    region: Texas
+    country: US
+    lat: 29.7804
+    lng: -95.3884
+    timezone: America/Chicago
+  climate:
+    type: tropical
+    altitudeFt: 80
+    avgTempF: 68.8
+  dimensions:
+    fenceFt:
+      lf: 351
+      lcf: 353
+      cf: 399
+      rcf: 358
+      rf: 328
+    wallHeightFt:
+      lf: 7
+      lcf: 14
+      cf: 7
+      rcf: 3
+      rf: 4
+    foulTerritory: small
+- _id: kestrel-stadium
+  name: Kestrel Stadium
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 48600
+  location:
+    city: Sydney
+    region: New South Wales
+    country: AU
+    lat: -33.8901
+    lng: 151.2262
+    timezone: Australia/Sydney
+  climate:
+    type: temperate
+    altitudeFt: 190
+    avgTempF: 63.8
+  dimensions:
+    fenceFt:
+      lf: 361
+      lcf: 402
+      cf: 402
+      rcf: 363
+      rf: 360
+    wallHeightFt:
+      lf: 10
+      lcf: 6
+      cf: 19
+      rcf: 4
+      rf: 18
+    foulTerritory: small
+- _id: amber-field
+  name: Amber Field
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 47000
+  location:
+    city: San Diego
+    region: California
+    country: US
+    lat: 32.7363
+    lng: -117.1439
+    timezone: America/Los_Angeles
+  climate:
+    type: dome
+    altitudeFt: 62
+    avgTempF: 72
+  dimensions:
+    fenceFt:
+      lf: 346
+      lcf: 415
+      cf: 423
+      rcf: 366
+      rf: 345
+    wallHeightFt:
+      lf: 6
+      lcf: 20
+      cf: 5
+      rcf: 8
+      rf: 17
+    foulTerritory: large
+- _id: meadow-yards
+  name: Meadow Yards
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 42700
+  location:
+    city: Dallas
+    region: Texas
+    country: US
+    lat: 32.7674
+    lng: -96.757
+    timezone: America/Chicago
+  climate:
+    type: temperate
+    altitudeFt: 430
+    avgTempF: 65.9
+  dimensions:
+    fenceFt:
+      lf: 363
+      lcf: 359
+      cf: 430
+      rcf: 362
+      rf: 338
+    wallHeightFt:
+      lf: 5
+      lcf: 13
+      cf: 8
+      rcf: 3
+      rf: 18
+    foulTerritory: large
+- _id: cypress-yards
+  name: Cypress Yards
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 36300
+  location:
+    city: Portland
+    region: Oregon
+    country: US
+    lat: 45.5379
+    lng: -122.7177
+    timezone: America/Los_Angeles
+  climate:
+    type: temperate
+    altitudeFt: 50
+    avgTempF: 54.2
+  dimensions:
+    fenceFt:
+      lf: 334
+      lcf: 352
+      cf: 419
+      rcf: 340
+      rf: 353
+    wallHeightFt:
+      lf: 20
+      lcf: 3
+      cf: 7
+      rcf: 17
+      rf: 5
+    foulTerritory: large
+- _id: amber-park
+  name: Amber Park
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 20400
+  location:
+    city: Detroit
+    region: Michigan
+    country: US
+    lat: 42.3748
+    lng: -83.0092
+    timezone: America/Detroit
+  climate:
+    type: dome
+    altitudeFt: 600
+    avgTempF: 72
+  dimensions:
+    fenceFt:
+      lf: 356
+      lcf: 388
+      cf: 403
+      rcf: 371
+      rf: 336
+    wallHeightFt:
+      lf: 14
+      lcf: 16
+      cf: 3
+      rcf: 5
+      rf: 10
+    foulTerritory: small
+- _id: bluff-arena
+  name: Bluff Arena
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 48800
+  location:
+    city: San Diego
+    region: California
+    country: US
+    lat: 32.6799
+    lng: -117.1593
+    timezone: America/Los_Angeles
+  climate:
+    type: temperate
+    altitudeFt: 62
+    avgTempF: 64.8
+  dimensions:
+    fenceFt:
+      lf: 325
+      lcf: 396
+      cf: 409
+      rcf: 375
+      rf: 348
+    wallHeightFt:
+      lf: 10
+      lcf: 17
+      cf: 14
+      rcf: 6
+      rf: 20
+    foulTerritory: small
+- _id: beacon-stadium
+  name: Beacon Stadium
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 50300
+  location:
+    city: San Diego
+    region: California
+    country: US
+    lat: 32.7629
+    lng: -117.1691
+    timezone: America/Los_Angeles
+  climate:
+    type: temperate
+    altitudeFt: 62
+    avgTempF: 64.2
+  dimensions:
+    fenceFt:
+      lf: 330
+      lcf: 375
+      cf: 396
+      rcf: 385
+      rf: 349
+    wallHeightFt:
+      lf: 15
+      lcf: 7
+      cf: 3
+      rcf: 6
+      rf: 9
+    foulTerritory: large
+- _id: river-park
+  name: River Park
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 31100
+  location:
+    city: Nashville
+    region: Tennessee
+    country: US
+    lat: 36.1281
+    lng: -86.7501
+    timezone: America/Chicago
+  climate:
+    type: temperate
+    altitudeFt: 597
+    avgTempF: 58.9
+  dimensions:
+    fenceFt:
+      lf: 348
+      lcf: 381
+      cf: 427
+      rcf: 378
+      rf: 330
+    wallHeightFt:
+      lf: 4
+      lcf: 13
+      cf: 11
+      rcf: 19
+      rf: 16
+    foulTerritory: medium
+- _id: prairie-grounds
+  name: Prairie Grounds
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 47700
+  location:
+    city: Monterrey
+    region: Nuevo Leon
+    country: MX
+    lat: 25.6379
+    lng: -100.3362
+    timezone: America/Monterrey
+  climate:
+    type: arid
+    altitudeFt: 1778
+    avgTempF: 72.9
+  dimensions:
+    fenceFt:
+      lf: 352
+      lcf: 393
+      cf: 423
+      rcf: 340
+      rf: 356
+    wallHeightFt:
+      lf: 9
+      lcf: 13
+      cf: 17
+      rcf: 16
+      rf: 12
+    foulTerritory: medium
+- _id: cedar-field
+  name: Cedar Field
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 37600
+  location:
+    city: St. Louis
+    region: Missouri
+    country: US
+    lat: 38.6178
+    lng: -90.2291
+    timezone: America/Chicago
+  climate:
+    type: continental
+    altitudeFt: 466
+    avgTempF: 56.2
+  dimensions:
+    fenceFt:
+      lf: 338
+      lcf: 393
+      cf: 396
+      rcf: 342
+      rf: 364
+    wallHeightFt:
+      lf: 16
+      lcf: 18
+      cf: 5
+      rcf: 13
+      rf: 15
+    foulTerritory: small
+- _id: dawn-yards
+  name: Dawn Yards
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 56600
+  location:
+    city: Buffalo
+    region: New York
+    country: US
+    lat: 42.8862
+    lng: -78.8853
+    timezone: America/New_York
+  climate:
+    type: continental
+    altitudeFt: 600
+    avgTempF: 47.7
+  dimensions:
+    fenceFt:
+      lf: 351
+      lcf: 420
+      cf: 398
+      rcf: 383
+      rf: 333
+    wallHeightFt:
+      lf: 11
+      lcf: 9
+      cf: 19
+      rcf: 7
+      rf: 8
+    foulTerritory: medium
+- _id: cedar-grounds
+  name: Cedar Grounds
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 58200
+  location:
+    city: Guadalajara
+    region: Jalisco
+    country: MX
+    lat: 20.6617
+    lng: -103.3145
+    timezone: America/Mexico_City
+  climate:
+    type: temperate
+    altitudeFt: 5138
+    avgTempF: 66.7
+  dimensions:
+    fenceFt:
+      lf: 327
+      lcf: 391
+      cf: 394
+      rcf: 365
+      rf: 352
+    wallHeightFt:
+      lf: 20
+      lcf: 5
+      cf: 5
+      rcf: 15
+      rf: 9
+    foulTerritory: medium
+- _id: northern-grounds
+  name: Northern Grounds
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 52100
+  location:
+    city: Phoenix
+    region: Arizona
+    country: US
+    lat: 33.4139
+    lng: -112.0683
+    timezone: America/Phoenix
+  climate:
+    type: arid
+    altitudeFt: 1086
+    avgTempF: 75.9
+  dimensions:
+    fenceFt:
+      lf: 360
+      lcf: 375
+      cf: 437
+      rcf: 400
+      rf: 332
+    wallHeightFt:
+      lf: 20
+      lcf: 9
+      cf: 16
+      rcf: 18
+      rf: 7
+    foulTerritory: large
+- _id: copper-yards
+  name: Copper Yards
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 56300
+  location:
+    city: Calgary
+    region: Alberta
+    country: CA
+    lat: 51.0148
+    lng: -114.1214
+    timezone: America/Edmonton
+  climate:
+    type: continental
+    altitudeFt: 3557
+    avgTempF: 40.8
+  dimensions:
+    fenceFt:
+      lf: 352
+      lcf: 417
+      cf: 397
+      rcf: 391
+      rf: 337
+    wallHeightFt:
+      lf: 14
+      lcf: 6
+      cf: 20
+      rcf: 7
+      rf: 16
+    foulTerritory: large
+- _id: thunder-stadium
+  name: Thunder Stadium
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 21900
+  location:
+    city: Minneapolis
+    region: Minnesota
+    country: US
+    lat: 44.9863
+    lng: -93.3005
+    timezone: America/Chicago
+  climate:
+    type: continental
+    altitudeFt: 830
+    avgTempF: 46.1
+  dimensions:
+    fenceFt:
+      lf: 352
+      lcf: 372
+      cf: 425
+      rcf: 400
+      rf: 336
+    wallHeightFt:
+      lf: 16
+      lcf: 5
+      cf: 20
+      rcf: 8
+      rf: 5
+    foulTerritory: medium
+- _id: pelican-park
+  name: Pelican Park
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 43200
+  location:
+    city: San Francisco
+    region: California
+    country: US
+    lat: 37.812
+    lng: -122.3732
+    timezone: America/Los_Angeles
+  climate:
+    type: temperate
+    altitudeFt: 52
+    avgTempF: 59
+  dimensions:
+    fenceFt:
+      lf: 337
+      lcf: 380
+      cf: 434
+      rcf: 399
+      rf: 359
+    wallHeightFt:
+      lf: 17
+      lcf: 11
+      cf: 4
+      rcf: 13
+      rf: 8
+    foulTerritory: small
+- _id: aspen-grounds
+  name: Aspen Grounds
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 33400
+  location:
+    city: Toronto
+    region: Ontario
+    country: CA
+    lat: 43.6143
+    lng: -79.3866
+    timezone: America/Toronto
+  climate:
+    type: continental
+    altitudeFt: 250
+    avgTempF: 47.8
+  dimensions:
+    fenceFt:
+      lf: 348
+      lcf: 411
+      cf: 392
+      rcf: 353
+      rf: 345
+    wallHeightFt:
+      lf: 14
+      lcf: 13
+      cf: 12
+      rcf: 6
+      rf: 14
+    foulTerritory: medium
+- _id: dawn-park
+  name: Dawn Park
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 43500
+  location:
+    city: Toronto
+    region: Ontario
+    country: CA
+    lat: 43.6115
+    lng: -79.368
+    timezone: America/Toronto
+  climate:
+    type: continental
+    altitudeFt: 250
+    avgTempF: 46.1
+  dimensions:
+    fenceFt:
+      lf: 334
+      lcf: 376
+      cf: 394
+      rcf: 353
+      rf: 362
+    wallHeightFt:
+      lf: 7
+      lcf: 5
+      cf: 20
+      rcf: 5
+      rf: 5
+    foulTerritory: small
+- _id: willow-field
+  name: Willow Field
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 48100
+  location:
+    city: Kansas City
+    region: Missouri
+    country: US
+    lat: 39.1164
+    lng: -94.5483
+    timezone: America/Chicago
+  climate:
+    type: continental
+    altitudeFt: 910
+    avgTempF: 56
+  dimensions:
+    fenceFt:
+      lf: 365
+      lcf: 358
+      cf: 407
+      rcf: 356
+      rf: 354
+    wallHeightFt:
+      lf: 17
+      lcf: 10
+      cf: 18
+      rcf: 3
+      rf: 11
+    foulTerritory: small
+- _id: anchor-yards
+  name: Anchor Yards
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 55600
+  location:
+    city: Vancouver
+    region: British Columbia
+    country: CA
+    lat: 49.2763
+    lng: -123.1645
+    timezone: America/Vancouver
+  climate:
+    type: temperate
+    altitudeFt: 230
+    avgTempF: 51.6
+  dimensions:
+    fenceFt:
+      lf: 331
+      lcf: 351
+      cf: 412
+      rcf: 408
+      rf: 365
+    wallHeightFt:
+      lf: 19
+      lcf: 13
+      cf: 17
+      rcf: 4
+      rf: 3
+    foulTerritory: medium
+- _id: thunder-field
+  name: Thunder Field
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 40400
+  location:
+    city: Atlanta
+    region: Georgia
+    country: US
+    lat: 33.7516
+    lng: -84.3807
+    timezone: America/New_York
+  climate:
+    type: temperate
+    altitudeFt: 1050
+    avgTempF: 61.9
+  dimensions:
+    fenceFt:
+      lf: 339
+      lcf: 405
+      cf: 414
+      rcf: 419
+      rf: 334
+    wallHeightFt:
+      lf: 12
+      lcf: 20
+      cf: 17
+      rcf: 5
+      rf: 15
+    foulTerritory: small
+- _id: river-grounds
+  name: River Grounds
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 37200
+  location:
+    city: Calgary
+    region: Alberta
+    country: CA
+    lat: 51.0787
+    lng: -114.029
+    timezone: America/Edmonton
+  climate:
+    type: continental
+    altitudeFt: 3557
+    avgTempF: 40.5
+  dimensions:
+    fenceFt:
+      lf: 363
+      lcf: 345
+      cf: 409
+      rcf: 361
+      rf: 352
+    wallHeightFt:
+      lf: 3
+      lcf: 5
+      cf: 16
+      rcf: 7
+      rf: 15
+    foulTerritory: large
+- _id: heron-ballpark
+  name: Heron Ballpark
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 26900
+  location:
+    city: Austin
+    region: Texas
+    country: US
+    lat: 30.2406
+    lng: -97.7205
+    timezone: America/Chicago
+  climate:
+    type: temperate
+    altitudeFt: 489
+    avgTempF: 68.2
+  dimensions:
+    fenceFt:
+      lf: 365
+      lcf: 403
+      cf: 432
+      rcf: 343
+      rf: 359
+    wallHeightFt:
+      lf: 18
+      lcf: 13
+      cf: 18
+      rcf: 20
+      rf: 10
+    foulTerritory: large
+- _id: pelican-ballpark
+  name: Pelican Ballpark
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 33000
+  location:
+    city: Minneapolis
+    region: Minnesota
+    country: US
+    lat: 44.9914
+    lng: -93.2929
+    timezone: America/Chicago
+  climate:
+    type: continental
+    altitudeFt: 830
+    avgTempF: 46.1
+  dimensions:
+    fenceFt:
+      lf: 334
+      lcf: 347
+      cf: 415
+      rcf: 394
+      rf: 358
+    wallHeightFt:
+      lf: 20
+      lcf: 5
+      cf: 5
+      rcf: 17
+      rf: 19
+    foulTerritory: medium
+- _id: sable-arena
+  name: Sable Arena
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 37500
+  location:
+    city: Mexico City
+    region: CDMX
+    country: MX
+    lat: 19.4319
+    lng: -99.1241
+    timezone: America/Mexico_City
+  climate:
+    type: temperate
+    altitudeFt: 7350
+    avgTempF: 64
+  dimensions:
+    fenceFt:
+      lf: 352
+      lcf: 355
+      cf: 423
+      rcf: 375
+      rf: 336
+    wallHeightFt:
+      lf: 16
+      lcf: 8
+      cf: 10
+      rcf: 18
+      rf: 17
+    foulTerritory: medium
+- _id: heron-field
+  name: Heron Field
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 25400
+  location:
+    city: Chicago
+    region: Illinois
+    country: US
+    lat: 41.8589
+    lng: -87.6007
+    timezone: America/Chicago
+  climate:
+    type: continental
+    altitudeFt: 594
+    avgTempF: 50.2
+  dimensions:
+    fenceFt:
+      lf: 360
+      lcf: 382
+      cf: 420
+      rcf: 359
+      rf: 339
+    wallHeightFt:
+      lf: 8
+      lcf: 18
+      cf: 15
+      rcf: 14
+      rf: 6
+    foulTerritory: medium
+- _id: eagle-arena
+  name: Eagle Arena
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 33900
+  location:
+    city: St. Louis
+    region: Missouri
+    country: US
+    lat: 38.6633
+    lng: -90.182
+    timezone: America/Chicago
+  climate:
+    type: continental
+    altitudeFt: 466
+    avgTempF: 56.6
+  dimensions:
+    fenceFt:
+      lf: 344
+      lcf: 410
+      cf: 414
+      rcf: 367
+      rf: 330
+    wallHeightFt:
+      lf: 8
+      lcf: 17
+      cf: 8
+      rcf: 11
+      rf: 12
+    foulTerritory: small
+- _id: beacon-yards
+  name: Beacon Yards
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 45600
+  location:
+    city: Portland
+    region: Oregon
+    country: US
+    lat: 45.5069
+    lng: -122.6402
+    timezone: America/Los_Angeles
+  climate:
+    type: temperate
+    altitudeFt: 50
+    avgTempF: 55.4
+  dimensions:
+    fenceFt:
+      lf: 362
+      lcf: 396
+      cf: 414
+      rcf: 341
+      rf: 347
+    wallHeightFt:
+      lf: 10
+      lcf: 19
+      cf: 9
+      rcf: 14
+      rf: 18
+    foulTerritory: medium
+- _id: eagle-yards
+  name: Eagle Yards
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 51900
+  location:
+    city: Salt Lake City
+    region: Utah
+    country: US
+    lat: 40.8046
+    lng: -111.9397
+    timezone: America/Denver
+  climate:
+    type: dome
+    altitudeFt: 4226
+    avgTempF: 72
+  dimensions:
+    fenceFt:
+      lf: 338
+      lcf: 405
+      cf: 429
+      rcf: 346
+      rf: 342
+    wallHeightFt:
+      lf: 10
+      lcf: 11
+      cf: 17
+      rcf: 11
+      rf: 6
+    foulTerritory: small
+- _id: bluff-field
+  name: Bluff Field
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 25700
+  location:
+    city: Boston
+    region: Massachusetts
+    country: US
+    lat: 42.4008
+    lng: -71.1062
+    timezone: America/New_York
+  climate:
+    type: continental
+    altitudeFt: 20
+    avgTempF: 51.1
+  dimensions:
+    fenceFt:
+      lf: 352
+      lcf: 360
+      cf: 404
+      rcf: 384
+      rf: 346
+    wallHeightFt:
+      lf: 7
+      lcf: 18
+      cf: 13
+      rcf: 9
+      rf: 14
+    foulTerritory: large
+- _id: clearwater-arena
+  name: Clearwater Arena
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 22300
+  location:
+    city: Osaka
+    region: Osaka
+    country: JP
+    lat: 34.7421
+    lng: 135.4534
+    timezone: Asia/Tokyo
+  climate:
+    type: temperate
+    altitudeFt: 40
+    avgTempF: 61
+  dimensions:
+    fenceFt:
+      lf: 360
+      lcf: 365
+      cf: 421
+      rcf: 354
+      rf: 331
+    wallHeightFt:
+      lf: 6
+      lcf: 20
+      cf: 19
+      rcf: 20
+      rf: 14
+    foulTerritory: large
+- _id: juniper-ballpark
+  name: Juniper Ballpark
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 48300
+  location:
+    city: Guadalajara
+    region: Jalisco
+    country: MX
+    lat: 20.6488
+    lng: -103.3177
+    timezone: America/Mexico_City
+  climate:
+    type: temperate
+    altitudeFt: 5138
+    avgTempF: 66.3
+  dimensions:
+    fenceFt:
+      lf: 356
+      lcf: 413
+      cf: 407
+      rcf: 376
+      rf: 334
+    wallHeightFt:
+      lf: 18
+      lcf: 14
+      cf: 17
+      rcf: 20
+      rf: 10
+    foulTerritory: medium
+- _id: cypress-ballpark
+  name: Cypress Ballpark
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 20100
+  location:
+    city: Atlanta
+    region: Georgia
+    country: US
+    lat: 33.7012
+    lng: -84.3971
+    timezone: America/New_York
+  climate:
+    type: temperate
+    altitudeFt: 1050
+    avgTempF: 62.1
+  dimensions:
+    fenceFt:
+      lf: 325
+      lcf: 390
+      cf: 430
+      rcf: 378
+      rf: 356
+    wallHeightFt:
+      lf: 3
+      lcf: 3
+      cf: 4
+      rcf: 18
+      rf: 12
+    foulTerritory: small
+- _id: northern-field
+  name: Northern Field
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 48100
+  location:
+    city: Dallas
+    region: Texas
+    country: US
+    lat: 32.7696
+    lng: -96.7491
+    timezone: America/Chicago
+  climate:
+    type: temperate
+    altitudeFt: 430
+    avgTempF: 65.4
+  dimensions:
+    fenceFt:
+      lf: 332
+      lcf: 380
+      cf: 422
+      rcf: 357
+      rf: 339
+    wallHeightFt:
+      lf: 8
+      lcf: 11
+      cf: 9
+      rcf: 8
+      rf: 10
+    foulTerritory: small
+- _id: harvest-yards
+  name: Harvest Yards
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 59600
+  location:
+    city: Seoul
+    region: Seoul
+    country: KR
+    lat: 37.5255
+    lng: 126.988
+    timezone: Asia/Seoul
+  climate:
+    type: continental
+    altitudeFt: 125
+    avgTempF: 53.9
+  dimensions:
+    fenceFt:
+      lf: 352
+      lcf: 383
+      cf: 403
+      rcf: 389
+      rf: 361
+    wallHeightFt:
+      lf: 13
+      lcf: 16
+      cf: 20
+      rcf: 6
+      rf: 10
+    foulTerritory: large
+- _id: granite-park
+  name: Granite Park
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 40900
+  location:
+    city: Las Vegas
+    region: Nevada
+    country: US
+    lat: 36.1912
+    lng: -115.1847
+    timezone: America/Los_Angeles
+  climate:
+    type: arid
+    altitudeFt: 2001
+    avgTempF: 70.9
+  dimensions:
+    fenceFt:
+      lf: 328
+      lcf: 384
+      cf: 427
+      rcf: 340
+      rf: 328
+    wallHeightFt:
+      lf: 7
+      lcf: 18
+      cf: 15
+      rcf: 6
+      rf: 6
+    foulTerritory: large
+- _id: willow-ballpark
+  name: Willow Ballpark
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 33300
+  location:
+    city: Amsterdam
+    region: North Holland
+    country: NL
+    lat: 52.3729
+    lng: 4.9428
+    timezone: Europe/Amsterdam
+  climate:
+    type: temperate
+    altitudeFt: -7
+    avgTempF: 51.5
+  dimensions:
+    fenceFt:
+      lf: 346
+      lcf: 395
+      cf: 428
+      rcf: 413
+      rf: 364
+    wallHeightFt:
+      lf: 9
+      lcf: 18
+      cf: 14
+      rcf: 19
+      rf: 15
+    foulTerritory: large
+- _id: birch-field
+  name: Birch Field
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 26600
+  location:
+    city: Buffalo
+    region: New York
+    country: US
+    lat: 42.8523
+    lng: -78.894
+    timezone: America/New_York
+  climate:
+    type: continental
+    altitudeFt: 600
+    avgTempF: 48.4
+  dimensions:
+    fenceFt:
+      lf: 345
+      lcf: 417
+      cf: 400
+      rcf: 379
+      rf: 362
+    wallHeightFt:
+      lf: 13
+      lcf: 8
+      cf: 3
+      rcf: 7
+      rf: 17
+    foulTerritory: medium
+- _id: lantern-stadium
+  name: Lantern Stadium
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 21900
+  location:
+    city: Tokyo
+    region: Tokyo
+    country: JP
+    lat: 35.7164
+    lng: 139.646
+    timezone: Asia/Tokyo
+  climate:
+    type: temperate
+    altitudeFt: 130
+    avgTempF: 59.8
+  dimensions:
+    fenceFt:
+      lf: 352
+      lcf: 362
+      cf: 398
+      rcf: 417
+      rf: 346
+    wallHeightFt:
+      lf: 9
+      lcf: 6
+      cf: 9
+      rcf: 11
+      rf: 14
+    foulTerritory: large
+- _id: eagle-grounds
+  name: Eagle Grounds
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 31300
+  location:
+    city: Tampa
+    region: Florida
+    country: US
+    lat: 27.9845
+    lng: -82.5026
+    timezone: America/New_York
+  climate:
+    type: tropical
+    altitudeFt: 48
+    avgTempF: 72.6
+  dimensions:
+    fenceFt:
+      lf: 361
+      lcf: 417
+      cf: 397
+      rcf: 412
+      rf: 354
+    wallHeightFt:
+      lf: 19
+      lcf: 8
+      cf: 6
+      rcf: 18
+      rf: 8
+    foulTerritory: medium
+- _id: orchard-arena
+  name: Orchard Arena
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 32000
+  location:
+    city: Tokyo
+    region: Tokyo
+    country: JP
+    lat: 35.6279
+    lng: 139.6069
+    timezone: Asia/Tokyo
+  climate:
+    type: temperate
+    altitudeFt: 130
+    avgTempF: 61.1
+  dimensions:
+    fenceFt:
+      lf: 350
+      lcf: 343
+      cf: 395
+      rcf: 370
+      rf: 362
+    wallHeightFt:
+      lf: 14
+      lcf: 19
+      cf: 9
+      rcf: 17
+      rf: 3
+    foulTerritory: small
+- _id: birch-ballpark
+  name: Birch Ballpark
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 41200
+  location:
+    city: Philadelphia
+    region: Pennsylvania
+    country: US
+    lat: 39.9919
+    lng: -75.182
+    timezone: America/New_York
+  climate:
+    type: temperate
+    altitudeFt: 40
+    avgTempF: 55.7
+  dimensions:
+    fenceFt:
+      lf: 330
+      lcf: 399
+      cf: 434
+      rcf: 364
+      rf: 332
+    wallHeightFt:
+      lf: 12
+      lcf: 13
+      cf: 15
+      rcf: 9
+      rf: 20
+    foulTerritory: large
+- _id: cinder-yards
+  name: Cinder Yards
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 47100
+  location:
+    city: Detroit
+    region: Michigan
+    country: US
+    lat: 42.333
+    lng: -83.0324
+    timezone: America/Detroit
+  climate:
+    type: continental
+    altitudeFt: 600
+    avgTempF: 50.5
+  dimensions:
+    fenceFt:
+      lf: 331
+      lcf: 380
+      cf: 437
+      rcf: 409
+      rf: 355
+    wallHeightFt:
+      lf: 9
+      lcf: 9
+      cf: 6
+      rcf: 7
+      rf: 13
+    foulTerritory: medium
+- _id: harvest-park
+  name: Harvest Park
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 45800
+  location:
+    city: Amsterdam
+    region: North Holland
+    country: NL
+    lat: 52.3812
+    lng: 4.8573
+    timezone: Europe/Amsterdam
+  climate:
+    type: dome
+    altitudeFt: -7
+    avgTempF: 72
+  dimensions:
+    fenceFt:
+      lf: 354
+      lcf: 354
+      cf: 419
+      rcf: 365
+      rf: 341
+    wallHeightFt:
+      lf: 11
+      lcf: 18
+      cf: 3
+      rcf: 4
+      rf: 20
+    foulTerritory: large
+- _id: summit-grounds
+  name: Summit Grounds
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 33000
+  location:
+    city: Chicago
+    region: Illinois
+    country: US
+    lat: 41.8289
+    lng: -87.6751
+    timezone: America/Chicago
+  climate:
+    type: continental
+    altitudeFt: 594
+    avgTempF: 50.7
+  dimensions:
+    fenceFt:
+      lf: 335
+      lcf: 343
+      cf: 404
+      rcf: 390
+      rf: 364
+    wallHeightFt:
+      lf: 20
+      lcf: 19
+      cf: 6
+      rcf: 7
+      rf: 17
+    foulTerritory: small
+- _id: quarry-field
+  name: Quarry Field
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 29800
+  location:
+    city: Taipei
+    region: Taipei
+    country: TW
+    lat: 25.023
+    lng: 121.5676
+    timezone: Asia/Taipei
+  climate:
+    type: tropical
+    altitudeFt: 30
+    avgTempF: 73
+  dimensions:
+    fenceFt:
+      lf: 349
+      lcf: 356
+      cf: 399
+      rcf: 365
+      rf: 334
+    wallHeightFt:
+      lf: 15
+      lcf: 4
+      cf: 12
+      rcf: 3
+      rf: 17
+    foulTerritory: large
+- _id: cedar-yards
+  name: Cedar Yards
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 54000
+  location:
+    city: Charlotte
+    region: North Carolina
+    country: US
+    lat: 35.186
+    lng: -80.8497
+    timezone: America/New_York
+  climate:
+    type: temperate
+    altitudeFt: 751
+    avgTempF: 59.7
+  dimensions:
+    fenceFt:
+      lf: 356
+      lcf: 400
+      cf: 395
+      rcf: 403
+      rf: 359
+    wallHeightFt:
+      lf: 19
+      lcf: 15
+      cf: 17
+      rcf: 14
+      rf: 19
+    foulTerritory: medium
+- _id: meadow-field
+  name: Meadow Field
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 50700
+  location:
+    city: Kansas City
+    region: Missouri
+    country: US
+    lat: 39.1243
+    lng: -94.6085
+    timezone: America/Chicago
+  climate:
+    type: continental
+    altitudeFt: 910
+    avgTempF: 56.2
+  dimensions:
+    fenceFt:
+      lf: 343
+      lcf: 348
+      cf: 391
+      rcf: 356
+      rf: 336
+    wallHeightFt:
+      lf: 10
+      lcf: 5
+      cf: 19
+      rcf: 7
+      rf: 19
+    foulTerritory: large
+- _id: eagle-field
+  name: Eagle Field
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 49500
+  location:
+    city: Mexico City
+    region: CDMX
+    country: MX
+    lat: 19.3934
+    lng: -99.0865
+    timezone: America/Mexico_City
+  climate:
+    type: temperate
+    altitudeFt: 7350
+    avgTempF: 64.7
+  dimensions:
+    fenceFt:
+      lf: 329
+      lcf: 359
+      cf: 421
+      rcf: 384
+      rf: 362
+    wallHeightFt:
+      lf: 14
+      lcf: 18
+      cf: 13
+      rcf: 14
+      rf: 19
+    foulTerritory: large
+- _id: bronze-grounds
+  name: Bronze Grounds
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 46700
+  location:
+    city: Osaka
+    region: Osaka
+    country: JP
+    lat: 34.6515
+    lng: 135.523
+    timezone: Asia/Tokyo
+  climate:
+    type: temperate
+    altitudeFt: 40
+    avgTempF: 62.9
+  dimensions:
+    fenceFt:
+      lf: 347
+      lcf: 357
+      cf: 398
+      rcf: 342
+      rf: 349
+    wallHeightFt:
+      lf: 19
+      lcf: 10
+      cf: 11
+      rcf: 7
+      rf: 7
+    foulTerritory: large
+- _id: aspen-stadium
+  name: Aspen Stadium
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 40000
+  location:
+    city: St. Louis
+    region: Missouri
+    country: US
+    lat: 38.6365
+    lng: -90.1638
+    timezone: America/Chicago
+  climate:
+    type: continental
+    altitudeFt: 466
+    avgTempF: 57.4
+  dimensions:
+    fenceFt:
+      lf: 365
+      lcf: 413
+      cf: 406
+      rcf: 351
+      rf: 361
+    wallHeightFt:
+      lf: 19
+      lcf: 17
+      cf: 20
+      rcf: 5
+      rf: 8
+    foulTerritory: medium
+- _id: ridge-park
+  name: Ridge Park
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 20900
+  location:
+    city: Chicago
+    region: Illinois
+    country: US
+    lat: 41.9219
+    lng: -87.6615
+    timezone: America/Chicago
+  climate:
+    type: continental
+    altitudeFt: 594
+    avgTempF: 49.5
+  dimensions:
+    fenceFt:
+      lf: 360
+      lcf: 409
+      cf: 436
+      rcf: 414
+      rf: 327
+    wallHeightFt:
+      lf: 16
+      lcf: 7
+      cf: 10
+      rcf: 20
+      rf: 15
+    foulTerritory: medium
+- _id: prairie-field
+  name: Prairie Field
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 35200
+  location:
+    city: Guadalajara
+    region: Jalisco
+    country: MX
+    lat: 20.6261
+    lng: -103.3562
+    timezone: America/Mexico_City
+  climate:
+    type: temperate
+    altitudeFt: 5138
+    avgTempF: 66.8
+  dimensions:
+    fenceFt:
+      lf: 358
+      lcf: 384
+      cf: 436
+      rcf: 398
+      rf: 344
+    wallHeightFt:
+      lf: 15
+      lcf: 12
+      cf: 7
+      rcf: 5
+      rf: 6
+    foulTerritory: medium
+- _id: anchor-grounds
+  name: Anchor Grounds
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 50900
+  location:
+    city: Buffalo
+    region: New York
+    country: US
+    lat: 42.9268
+    lng: -78.9072
+    timezone: America/New_York
+  climate:
+    type: continental
+    altitudeFt: 600
+    avgTempF: 48.5
+  dimensions:
+    fenceFt:
+      lf: 340
+      lcf: 396
+      cf: 435
+      rcf: 355
+      rf: 365
+    wallHeightFt:
+      lf: 3
+      lcf: 4
+      cf: 8
+      rcf: 12
+      rf: 12
+    foulTerritory: small
+- _id: silver-arena
+  name: Silver Arena
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 34400
+  location:
+    city: Osaka
+    region: Osaka
+    country: JP
+    lat: 34.6559
+    lng: 135.497
+    timezone: Asia/Tokyo
+  climate:
+    type: temperate
+    altitudeFt: 40
+    avgTempF: 61.6
+  dimensions:
+    fenceFt:
+      lf: 353
+      lcf: 398
+      cf: 391
+      rcf: 390
+      rf: 360
+    wallHeightFt:
+      lf: 12
+      lcf: 14
+      cf: 12
+      rcf: 18
+      rf: 15
+    foulTerritory: medium
+- _id: thunder-yards
+  name: Thunder Yards
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 29900
+  location:
+    city: Charlotte
+    region: North Carolina
+    country: US
+    lat: 35.1911
+    lng: -80.8196
+    timezone: America/New_York
+  climate:
+    type: temperate
+    altitudeFt: 751
+    avgTempF: 60
+  dimensions:
+    fenceFt:
+      lf: 348
+      lcf: 399
+      cf: 399
+      rcf: 398
+      rf: 351
+    wallHeightFt:
+      lf: 16
+      lcf: 6
+      cf: 7
+      rcf: 16
+      rf: 4
+    foulTerritory: small
+- _id: northern-stadium
+  name: Northern Stadium
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 42800
+  location:
+    city: San Francisco
+    region: California
+    country: US
+    lat: 37.7777
+    lng: -122.3978
+    timezone: America/Los_Angeles
+  climate:
+    type: temperate
+    altitudeFt: 52
+    avgTempF: 58.1
+  dimensions:
+    fenceFt:
+      lf: 355
+      lcf: 350
+      cf: 396
+      rcf: 360
+      rf: 330
+    wallHeightFt:
+      lf: 15
+      lcf: 6
+      cf: 12
+      rcf: 4
+      rf: 3
+    foulTerritory: large
+- _id: pelican-grounds
+  name: Pelican Grounds
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 56000
+  location:
+    city: Pittsburgh
+    region: Pennsylvania
+    country: US
+    lat: 40.4481
+    lng: -80.0046
+    timezone: America/New_York
+  climate:
+    type: continental
+    altitudeFt: 1223
+    avgTempF: 52.5
+  dimensions:
+    fenceFt:
+      lf: 326
+      lcf: 344
+      cf: 418
+      rcf: 361
+      rf: 349
+    wallHeightFt:
+      lf: 12
+      lcf: 16
+      cf: 10
+      rcf: 7
+      rf: 7
+    foulTerritory: large
+- _id: oakwood-stadium
+  name: Oakwood Stadium
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 42300
+  location:
+    city: Dallas
+    region: Texas
+    country: US
+    lat: 32.7999
+    lng: -96.8115
+    timezone: America/Chicago
+  climate:
+    type: temperate
+    altitudeFt: 430
+    avgTempF: 65.8
+  dimensions:
+    fenceFt:
+      lf: 349
+      lcf: 341
+      cf: 412
+      rcf: 413
+      rf: 363
+    wallHeightFt:
+      lf: 8
+      lcf: 17
+      cf: 20
+      rcf: 8
+      rf: 20
+    foulTerritory: medium
+- _id: oakwood-arena
+  name: Oakwood Arena
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 31800
+  location:
+    city: Charlotte
+    region: North Carolina
+    country: US
+    lat: 35.2316
+    lng: -80.8466
+    timezone: America/New_York
+  climate:
+    type: dome
+    altitudeFt: 751
+    avgTempF: 72
+  dimensions:
+    fenceFt:
+      lf: 362
+      lcf: 366
+      cf: 422
+      rcf: 412
+      rf: 360
+    wallHeightFt:
+      lf: 20
+      lcf: 19
+      cf: 5
+      rcf: 19
+      rf: 3
+    foulTerritory: small
+- _id: quarry-yards
+  name: Quarry Yards
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 27200
+  location:
+    city: Santo Domingo
+    region: Distrito Nacional
+    country: DO
+    lat: 18.5312
+    lng: -69.9283
+    timezone: America/Santo_Domingo
+  climate:
+    type: tropical
+    altitudeFt: 46
+    avgTempF: 79.9
+  dimensions:
+    fenceFt:
+      lf: 327
+      lcf: 372
+      cf: 434
+      rcf: 341
+      rf: 332
+    wallHeightFt:
+      lf: 9
+      lcf: 4
+      cf: 4
+      rcf: 7
+      rf: 9
+    foulTerritory: small
+- _id: orchard-yards
+  name: Orchard Yards
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 47600
+  location:
+    city: San Francisco
+    region: California
+    country: US
+    lat: 37.7615
+    lng: -122.4082
+    timezone: America/Los_Angeles
+  climate:
+    type: temperate
+    altitudeFt: 52
+    avgTempF: 58
+  dimensions:
+    fenceFt:
+      lf: 343
+      lcf: 371
+      cf: 438
+      rcf: 392
+      rf: 348
+    wallHeightFt:
+      lf: 20
+      lcf: 12
+      cf: 20
+      rcf: 11
+      rf: 4
+    foulTerritory: large
+- _id: clearwater-ballpark
+  name: Clearwater Ballpark
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 59200
+  location:
+    city: Austin
+    region: Texas
+    country: US
+    lat: 30.2909
+    lng: -97.7191
+    timezone: America/Chicago
+  climate:
+    type: temperate
+    altitudeFt: 489
+    avgTempF: 67.5
+  dimensions:
+    fenceFt:
+      lf: 357
+      lcf: 407
+      cf: 425
+      rcf: 365
+      rf: 354
+    wallHeightFt:
+      lf: 4
+      lcf: 8
+      cf: 18
+      rcf: 15
+      rf: 13
+    foulTerritory: large
+- _id: aspen-park
+  name: Aspen Park
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 33000
+  location:
+    city: Montreal
+    region: Quebec
+    country: CA
+    lat: 45.4651
+    lng: -73.6149
+    timezone: America/Toronto
+  climate:
+    type: dome
+    altitudeFt: 118
+    avgTempF: 72
+  dimensions:
+    fenceFt:
+      lf: 337
+      lcf: 384
+      cf: 437
+      rcf: 392
+      rf: 340
+    wallHeightFt:
+      lf: 15
+      lcf: 4
+      cf: 19
+      rcf: 13
+      rf: 16
+    foulTerritory: medium
+- _id: cinder-grounds
+  name: Cinder Grounds
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 42300
+  location:
+    city: Seoul
+    region: Seoul
+    country: KR
+    lat: 37.5326
+    lng: 126.9746
+    timezone: Asia/Seoul
+  climate:
+    type: continental
+    altitudeFt: 125
+    avgTempF: 54.9
+  dimensions:
+    fenceFt:
+      lf: 329
+      lcf: 383
+      cf: 413
+      rcf: 388
+      rf: 357
+    wallHeightFt:
+      lf: 4
+      lcf: 12
+      cf: 17
+      rcf: 11
+      rf: 17
+    foulTerritory: large
+- _id: dawn-stadium
+  name: Dawn Stadium
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 38300
+  location:
+    city: St. Louis
+    region: Missouri
+    country: US
+    lat: 38.5938
+    lng: -90.1548
+    timezone: America/Chicago
+  climate:
+    type: continental
+    altitudeFt: 466
+    avgTempF: 57.8
+  dimensions:
+    fenceFt:
+      lf: 360
+      lcf: 402
+      cf: 409
+      rcf: 363
+      rf: 338
+    wallHeightFt:
+      lf: 10
+      lcf: 18
+      cf: 7
+      rcf: 17
+      rf: 11
+    foulTerritory: large
+- _id: oakwood-yards
+  name: Oakwood Yards
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 41300
+  location:
+    city: Las Vegas
+    region: Nevada
+    country: US
+    lat: 36.1411
+    lng: -115.179
+    timezone: America/Los_Angeles
+  climate:
+    type: arid
+    altitudeFt: 2001
+    avgTempF: 70.1
+  dimensions:
+    fenceFt:
+      lf: 346
+      lcf: 399
+      cf: 399
+      rcf: 366
+      rf: 355
+    wallHeightFt:
+      lf: 5
+      lcf: 15
+      cf: 18
+      rcf: 5
+      rf: 13
+    foulTerritory: small
+- _id: kestrel-field
+  name: Kestrel Field
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 59700
+  location:
+    city: Detroit
+    region: Michigan
+    country: US
+    lat: 42.3768
+    lng: -83.0673
+    timezone: America/Detroit
+  climate:
+    type: continental
+    altitudeFt: 600
+    avgTempF: 49.9
+  dimensions:
+    fenceFt:
+      lf: 327
+      lcf: 412
+      cf: 402
+      rcf: 343
+      rf: 343
+    wallHeightFt:
+      lf: 11
+      lcf: 18
+      cf: 16
+      rcf: 7
+      rf: 14
+    foulTerritory: large
+- _id: pioneer-field
+  name: Pioneer Field
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 25100
+  location:
+    city: Santo Domingo
+    region: Distrito Nacional
+    country: DO
+    lat: 18.4593
+    lng: -69.9136
+    timezone: America/Santo_Domingo
+  climate:
+    type: tropical
+    altitudeFt: 46
+    avgTempF: 79.7
+  dimensions:
+    fenceFt:
+      lf: 356
+      lcf: 386
+      cf: 409
+      rcf: 345
+      rf: 332
+    wallHeightFt:
+      lf: 17
+      lcf: 19
+      cf: 4
+      rcf: 13
+      rf: 18
+    foulTerritory: small
+- _id: silver-grounds
+  name: Silver Grounds
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 53700
+  location:
+    city: Charlotte
+    region: North Carolina
+    country: US
+    lat: 35.2694
+    lng: -80.881
+    timezone: America/New_York
+  climate:
+    type: temperate
+    altitudeFt: 751
+    avgTempF: 59.6
+  dimensions:
+    fenceFt:
+      lf: 360
+      lcf: 390
+      cf: 399
+      rcf: 345
+      rf: 347
+    wallHeightFt:
+      lf: 9
+      lcf: 12
+      cf: 10
+      rcf: 6
+      rf: 6
+    foulTerritory: medium
+- _id: meadow-ballpark
+  name: Meadow Ballpark
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 52900
+  location:
+    city: Montreal
+    region: Quebec
+    country: CA
+    lat: 45.5218
+    lng: -73.5305
+    timezone: America/Toronto
+  climate:
+    type: continental
+    altitudeFt: 118
+    avgTempF: 43.9
+  dimensions:
+    fenceFt:
+      lf: 331
+      lcf: 344
+      cf: 439
+      rcf: 387
+      rf: 347
+    wallHeightFt:
+      lf: 17
+      lcf: 16
+      cf: 19
+      rcf: 19
+      rf: 9
+    foulTerritory: small
+- _id: anchor-stadium
+  name: Anchor Stadium
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 45200
+  location:
+    city: Portland
+    region: Oregon
+    country: US
+    lat: 45.4828
+    lng: -122.7227
+    timezone: America/Los_Angeles
+  climate:
+    type: temperate
+    altitudeFt: 50
+    avgTempF: 54.9
+  dimensions:
+    fenceFt:
+      lf: 326
+      lcf: 405
+      cf: 434
+      rcf: 385
+      rf: 328
+    wallHeightFt:
+      lf: 15
+      lcf: 19
+      cf: 15
+      rcf: 15
+      rf: 8
+    foulTerritory: small
+- _id: ridge-arena
+  name: Ridge Arena
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 31800
+  location:
+    city: San Francisco
+    region: California
+    country: US
+    lat: 37.7971
+    lng: -122.4235
+    timezone: America/Los_Angeles
+  climate:
+    type: temperate
+    altitudeFt: 52
+    avgTempF: 58
+  dimensions:
+    fenceFt:
+      lf: 337
+      lcf: 372
+      cf: 440
+      rcf: 373
+      rf: 348
+    wallHeightFt:
+      lf: 10
+      lcf: 18
+      cf: 10
+      rcf: 8
+      rf: 10
+    foulTerritory: large
+- _id: mesa-arena
+  name: Mesa Arena
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 56900
+  location:
+    city: Caracas
+    region: Capital District
+    country: VE
+    lat: 10.5198
+    lng: -66.909
+    timezone: America/Caracas
+  climate:
+    type: tropical
+    altitudeFt: 3025
+    avgTempF: 71.5
+  dimensions:
+    fenceFt:
+      lf: 326
+      lcf: 380
+      cf: 422
+      rcf: 391
+      rf: 347
+    wallHeightFt:
+      lf: 18
+      lcf: 13
+      cf: 12
+      rcf: 13
+      rf: 7
+    foulTerritory: medium
+- _id: granite-field
+  name: Granite Field
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 42100
+  location:
+    city: Honolulu
+    region: Hawaii
+    country: US
+    lat: 21.3241
+    lng: -157.8313
+    timezone: Pacific/Honolulu
+  climate:
+    type: tropical
+    altitudeFt: 20
+    avgTempF: 77.8
+  dimensions:
+    fenceFt:
+      lf: 340
+      lcf: 371
+      cf: 420
+      rcf: 389
+      rf: 326
+    wallHeightFt:
+      lf: 5
+      lcf: 18
+      cf: 19
+      rcf: 19
+      rf: 7
+    foulTerritory: medium
+- _id: anchor-arena
+  name: Anchor Arena
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 20200
+  location:
+    city: Phoenix
+    region: Arizona
+    country: US
+    lat: 33.4011
+    lng: -112.1075
+    timezone: America/Phoenix
+  climate:
+    type: arid
+    altitudeFt: 1086
+    avgTempF: 74.3
+  dimensions:
+    fenceFt:
+      lf: 346
+      lcf: 391
+      cf: 404
+      rcf: 419
+      rf: 357
+    wallHeightFt:
+      lf: 6
+      lcf: 8
+      cf: 7
+      rcf: 17
+      rf: 16
+    foulTerritory: medium
+- _id: beacon-field
+  name: Beacon Field
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 21900
+  location:
+    city: San Francisco
+    region: California
+    country: US
+    lat: 37.78
+    lng: -122.431
+    timezone: America/Los_Angeles
+  climate:
+    type: temperate
+    altitudeFt: 52
+    avgTempF: 57
+  dimensions:
+    fenceFt:
+      lf: 336
+      lcf: 375
+      cf: 432
+      rcf: 351
+      rf: 339
+    wallHeightFt:
+      lf: 5
+      lcf: 20
+      cf: 11
+      rcf: 12
+      rf: 8
+    foulTerritory: medium
+- _id: amber-arena
+  name: Amber Arena
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 25800
+  location:
+    city: Boston
+    region: Massachusetts
+    country: US
+    lat: 42.3764
+    lng: -71.0228
+    timezone: America/New_York
+  climate:
+    type: continental
+    altitudeFt: 20
+    avgTempF: 51.7
+  dimensions:
+    fenceFt:
+      lf: 351
+      lcf: 371
+      cf: 418
+      rcf: 356
+      rf: 338
+    wallHeightFt:
+      lf: 6
+      lcf: 15
+      cf: 15
+      rcf: 16
+      rf: 17
+    foulTerritory: medium
+- _id: amber-ballpark
+  name: Amber Ballpark
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 24400
+  location:
+    city: San Diego
+    region: California
+    country: US
+    lat: 32.7226
+    lng: -117.1472
+    timezone: America/Los_Angeles
+  climate:
+    type: temperate
+    altitudeFt: 62
+    avgTempF: 65
+  dimensions:
+    fenceFt:
+      lf: 352
+      lcf: 377
+      cf: 431
+      rcf: 383
+      rf: 344
+    wallHeightFt:
+      lf: 9
+      lcf: 14
+      cf: 11
+      rcf: 4
+      rf: 19
+    foulTerritory: large
+- _id: lantern-field
+  name: Lantern Field
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 57100
+  location:
+    city: Charlotte
+    region: North Carolina
+    country: US
+    lat: 35.2664
+    lng: -80.8805
+    timezone: America/New_York
+  climate:
+    type: temperate
+    altitudeFt: 751
+    avgTempF: 59.9
+  dimensions:
+    fenceFt:
+      lf: 347
+      lcf: 344
+      cf: 407
+      rcf: 398
+      rf: 361
+    wallHeightFt:
+      lf: 10
+      lcf: 18
+      cf: 10
+      rcf: 16
+      rf: 16
+    foulTerritory: large
+- _id: pioneer-grounds
+  name: Pioneer Grounds
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 30200
+  location:
+    city: Portland
+    region: Oregon
+    country: US
+    lat: 45.4969
+    lng: -122.719
+    timezone: America/Los_Angeles
+  climate:
+    type: dome
+    altitudeFt: 50
+    avgTempF: 72
+  dimensions:
+    fenceFt:
+      lf: 338
+      lcf: 376
+      cf: 437
+      rcf: 383
+      rf: 355
+    wallHeightFt:
+      lf: 6
+      lcf: 16
+      cf: 15
+      rcf: 4
+      rf: 8
+    foulTerritory: medium
+- _id: summit-yards
+  name: Summit Yards
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 59500
+  location:
+    city: Monterrey
+    region: Nuevo Leon
+    country: MX
+    lat: 25.6459
+    lng: -100.3095
+    timezone: America/Monterrey
+  climate:
+    type: dome
+    altitudeFt: 1778
+    avgTempF: 72
+  dimensions:
+    fenceFt:
+      lf: 364
+      lcf: 406
+      cf: 408
+      rcf: 387
+      rf: 352
+    wallHeightFt:
+      lf: 19
+      lcf: 11
+      cf: 9
+      rcf: 9
+      rf: 9
+    foulTerritory: medium
+- _id: pioneer-stadium
+  name: Pioneer Stadium
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 50000
+  location:
+    city: Amsterdam
+    region: North Holland
+    country: NL
+    lat: 52.3608
+    lng: 4.8825
+    timezone: Europe/Amsterdam
+  climate:
+    type: temperate
+    altitudeFt: -7
+    avgTempF: 51.4
+  dimensions:
+    fenceFt:
+      lf: 345
+      lcf: 356
+      cf: 395
+      rcf: 366
+      rf: 325
+    wallHeightFt:
+      lf: 15
+      lcf: 20
+      cf: 20
+      rcf: 20
+      rf: 5
+    foulTerritory: small
+- _id: dawn-ballpark
+  name: Dawn Ballpark
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 46300
+  location:
+    city: Pittsburgh
+    region: Pennsylvania
+    country: US
+    lat: 40.4487
+    lng: -79.9486
+    timezone: America/New_York
+  climate:
+    type: continental
+    altitudeFt: 1223
+    avgTempF: 51.2
+  dimensions:
+    fenceFt:
+      lf: 358
+      lcf: 371
+      cf: 429
+      rcf: 417
+      rf: 361
+    wallHeightFt:
+      lf: 6
+      lcf: 16
+      cf: 16
+      rcf: 11
+      rf: 14
+    foulTerritory: large
+- _id: cypress-stadium
+  name: Cypress Stadium
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 25100
+  location:
+    city: Osaka
+    region: Osaka
+    country: JP
+    lat: 34.7096
+    lng: 135.4776
+    timezone: Asia/Tokyo
+  climate:
+    type: temperate
+    altitudeFt: 40
+    avgTempF: 61.1
+  dimensions:
+    fenceFt:
+      lf: 351
+      lcf: 363
+      cf: 416
+      rcf: 354
+      rf: 328
+    wallHeightFt:
+      lf: 8
+      lcf: 18
+      cf: 14
+      rcf: 10
+      rf: 7
+    foulTerritory: small
+- _id: prairie-stadium
+  name: Prairie Stadium
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 34200
+  location:
+    city: Montreal
+    region: Quebec
+    country: CA
+    lat: 45.5102
+    lng: -73.5665
+    timezone: America/Toronto
+  climate:
+    type: continental
+    altitudeFt: 118
+    avgTempF: 44.2
+  dimensions:
+    fenceFt:
+      lf: 344
+      lcf: 368
+      cf: 418
+      rcf: 365
+      rf: 330
+    wallHeightFt:
+      lf: 18
+      lcf: 7
+      cf: 7
+      rcf: 4
+      rf: 16
+    foulTerritory: medium
+- _id: iron-park
+  name: Iron Park
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 49800
+  location:
+    city: Nashville
+    region: Tennessee
+    country: US
+    lat: 36.1491
+    lng: -86.7966
+    timezone: America/Chicago
+  climate:
+    type: temperate
+    altitudeFt: 597
+    avgTempF: 59.1
+  dimensions:
+    fenceFt:
+      lf: 340
+      lcf: 384
+      cf: 436
+      rcf: 412
+      rf: 333
+    wallHeightFt:
+      lf: 8
+      lcf: 8
+      cf: 17
+      rcf: 16
+      rf: 18
+    foulTerritory: medium
+- _id: maple-ballpark
+  name: Maple Ballpark
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 24200
+  location:
+    city: Pittsburgh
+    region: Pennsylvania
+    country: US
+    lat: 40.4851
+    lng: -79.9912
+    timezone: America/New_York
+  climate:
+    type: continental
+    altitudeFt: 1223
+    avgTempF: 50.8
+  dimensions:
+    fenceFt:
+      lf: 331
+      lcf: 369
+      cf: 434
+      rcf: 388
+      rf: 343
+    wallHeightFt:
+      lf: 9
+      lcf: 20
+      cf: 14
+      rcf: 5
+      rf: 15
+    foulTerritory: medium
+- _id: cedar-ballpark
+  name: Cedar Ballpark
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 31800
+  location:
+    city: Dallas
+    region: Texas
+    country: US
+    lat: 32.8159
+    lng: -96.7534
+    timezone: America/Chicago
+  climate:
+    type: temperate
+    altitudeFt: 430
+    avgTempF: 65.7
+  dimensions:
+    fenceFt:
+      lf: 363
+      lcf: 362
+      cf: 409
+      rcf: 375
+      rf: 344
+    wallHeightFt:
+      lf: 20
+      lcf: 7
+      cf: 15
+      rcf: 6
+      rf: 15
+    foulTerritory: large
+- _id: dawn-field
+  name: Dawn Field
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 26300
+  location:
+    city: Los Angeles
+    region: California
+    country: US
+    lat: 34.0737
+    lng: -118.2714
+    timezone: America/Los_Angeles
+  climate:
+    type: dome
+    altitudeFt: 285
+    avgTempF: 72
+  dimensions:
+    fenceFt:
+      lf: 361
+      lcf: 349
+      cf: 423
+      rcf: 348
+      rf: 339
+    wallHeightFt:
+      lf: 15
+      lcf: 18
+      cf: 15
+      rcf: 12
+      rf: 4
+    foulTerritory: medium
+- _id: bluff-yards
+  name: Bluff Yards
+  sport: baseball
+  gameVersion: 0.1.0
+  capacity: 43500
+  location:
+    city: Pittsburgh
+    region: Pennsylvania
+    country: US
+    lat: 40.4043
+    lng: -80.0092
+    timezone: America/New_York
+  climate:
+    type: continental
+    altitudeFt: 1223
+    avgTempF: 51.7
+  dimensions:
+    fenceFt:
+      lf: 337
+      lcf: 367
+      cf: 396
+      rcf: 415
+      rf: 361
+    wallHeightFt:
+      lf: 20
+      lcf: 10
+      cf: 8
+      rcf: 7
+      rf: 20
+    foulTerritory: medium

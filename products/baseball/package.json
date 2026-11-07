@@ -6,6 +6,16 @@
   "type": "module",
   "main": "src/index.js",
   "scripts": {
-    "test": "node --test"
+    "test": "tap",
+    "generate-stadiums": "node bin/generate-stadiums.js"
+  },
+  "dependencies": {
+    "@sjge/core": "*",
+    "@sjge/lib": "*",
+    "check-types": "^11.2.3",
+    "yaml": "^2.5.0"
+  },
+  "devDependencies": {
+    "tap": "^21.0.0"
   }
 }

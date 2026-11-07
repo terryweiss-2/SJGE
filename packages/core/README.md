@@ -20,19 +20,19 @@ Everything is exported from `src/index.js`:
 | `baseballStadiumValidator`  | object   | `src/stadium/baseballStadiumSchema.js` |
 | `baseballStadiumIndexes`    | array    | `src/stadium/baseballStadiumSchema.js` |
 | `ensureBaseballStadiums`    | function | `src/stadium/baseballStadiumSchema.js` |
-| `loadStadiums`              | function | `src/stadium/stadiums.js`              |
-| `stadiums`                  | array    | `src/stadium/stadiums.js`              |
-| `getStadiumById`            | function | `src/stadium/stadiums.js`              |
-| `getStadiumSvgPath`         | function | `src/stadium/stadiums.js`              |
-| `getStadiumSvg`             | function | `src/stadium/stadiums.js`              |
+| `BaseStadiumGenerator`      | class    | `src/stadium/baseStadiumGenerator.js`  |
+| `DEFAULT_GAME_VERSION`      | string   | `src/stadium/baseStadiumGenerator.js`  |
+| `NAME_PREFIXES`             | array    | `src/stadium/baseStadiumGenerator.js`  |
+| `NAME_SUFFIXES`             | array    | `src/stadium/baseStadiumGenerator.js`  |
+| `LOCATIONS`                 | array    | `src/stadium/baseStadiumGenerator.js`  |
+| `createRng`                 | function | `src/stadium/baseStadiumGenerator.js`  |
+| `slugify`                   | function | `src/stadium/baseStadiumGenerator.js`  |
 
 ```js
 import {
-    loadStadiums,
-    stadiums,
-    getStadiumById,
-    getStadiumSvgPath,
-    getStadiumSvg,
+    BaseStadiumGenerator,
+    createRng,
+    slugify,
     baseballStadiumSchema,
     ensureBaseballStadiums,
 } from '@sjge/core';
@@ -40,51 +40,40 @@ import {
 
 ## Stadiums
 
-### `loadStadiums([filePath])`
+Core contains only the sport-agnostic generator and schemas. Stadium datasets (YAML) and SVG assets belong to each
+product, for example `products/baseball/assets/stadiums`.
 
-Loads and parses stadium documents from a YAML file.
+### `new BaseStadiumGenerator(options)`
 
-| Parameter  | Type            | Description                                                              |
-|------------|-----------------|--------------------------------------------------------------------------|
-| `filePath` | `string`\|`URL` | Optional. Path or URL to YAML stadium file. Defaults to `stadiums.yaml`. |
+Generates the fields common to every stadium. Sport generators extend it and add `dimensions`.
 
-Returns an array of stadium objects.
+| Option        | Type     | Description                                                     |
+|---------------|----------|-----------------------------------------------------------------|
+| `sport`       | `string` | Required. One of `SPORTS`.                                      |
+| `gameVersion` | `string` | Optional semver stamped on stadiums. Defaults to `0.1.0`.       |
+| `seed`        | `number` | Optional integer seed for reproducible output. Defaults to `1`. |
 
-### `stadiums`
+#### `generator.createRng([offset])`
 
-Preloaded, immutable (`Object.freeze`) array of the 10 built-in baseball stadiums.
+Returns a seeded random function (`seed + offset`) returning floats in `[0, 1)`.
 
-### `getStadiumById(id)`
+#### `generator.generateCommon(rng, existingIds)`
 
-Retrieves a stadium document by its unique slug identifier.
+| Parameter     | Type                   | Description                                         |
+|---------------|------------------------|-----------------------------------------------------|
+| `rng`         | `function`             | Required. Random source, e.g. `createRng()`.        |
+| `existingIds` | `Set<string>`\|`array` | Required. Ids already used; the new id avoids them. |
 
-| Parameter | Type     | Description                                                           |
-|-----------|----------|-----------------------------------------------------------------------|
-| `id`      | `string` | Required. Non-empty string stadium slug (e.g. `'emerald-cove-park'`). |
+Returns `{_id, name, sport, gameVersion, capacity, location, climate}`. The caller should add the new `_id` to its set
+before generating the next stadium.
 
-Returns the matched stadium object, or `undefined` if no stadium with the given `_id` is found.
+### `createRng(seed)`
 
-### `getStadiumSvgPath(id)`
+Deterministic mulberry32 generator for an integer `seed`.
 
-Returns the file URL to the top-down SVG asset for a given stadium slug.
+### `slugify(text)`
 
-| Parameter | Type     | Description                                                           |
-|-----------|----------|-----------------------------------------------------------------------|
-| `id`      | `string` | Required. Non-empty string stadium slug (e.g. `'emerald-cove-park'`). |
-
-Returns a `URL` instance pointing to the SVG asset. Throws an `Error` if the stadium does not exist or the SVG asset is
-missing.
-
-### `getStadiumSvg(id)`
-
-Reads and returns the raw SVG XML markup for a given stadium slug.
-
-| Parameter | Type     | Description                                                           |
-|-----------|----------|-----------------------------------------------------------------------|
-| `id`      | `string` | Required. Non-empty string stadium slug (e.g. `'emerald-cove-park'`). |
-
-Returns a string containing the raw SVG XML. Throws an `Error` if the stadium does not exist or the SVG asset cannot be
-read.
+Converts a name to a lowercase hyphenated slug matching the `_id` pattern.
 
 ### `buildStadiumSchema(sport, dimensions)`
 

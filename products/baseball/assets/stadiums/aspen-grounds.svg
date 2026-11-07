@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img"
+     aria-label="Aspen Grounds">
+    <title>Aspen Grounds</title>
+    <rect width="800" height="800" fill="#1b2430"/>
+    <g id="background-stands">
+        <path d="M 400 720 L 140.4 460.4 L 237.8 328.4 L 400 313.2 L 542.2 376.6 L 657.7 462.3 Z" fill="#8a93a0"
+              stroke="#5c6470" stroke-width="4"/>
+    </g>
+    <g id="outfield-grass">
+        <path d="M 400 720 L 178.5 498.5 L 258.4 378.3 L 400 367.2 L 521.6 426.5 L 619.6 500.4 Z"
+              fill="hsl(106,55%,34%)"/>
+        <circle cx="400" cy="570" r="220" fill="hsl(106,55%,38%)" opacity="0.35"/>
+    </g>
+    <g id="warning-track">
+        <path d="M 178.5 498.5 L 258.4 378.3 L 400 367.2 L 521.6 426.5 L 619.6 500.4" fill="none" stroke="#a9744a"
+              stroke-width="16" stroke-linejoin="round"/>
+    </g>
+    <g id="foul-territory">
+        <path d="M 400 720 L 178.5 498.5 M 400 720 L 619.6 500.4" stroke="#ffffff" stroke-width="3" fill="none"/>
+    </g>
+    <g id="infield-dirt">
+        <circle cx="400" cy="663" r="100" fill="#b98558"/>
+        <circle cx="400" cy="663" r="9" fill="#9d6d45"/>
+    </g>
+    <g id="base-paths-lines">
+        <path d="M 400 720 L 457 663 L 400 606 L 343 663 Z" fill="none" stroke="#f1e6d0" stroke-width="3"/>
+    </g>
+    <g id="bases">
+        <rect x="452" y="658" width="10" height="10" fill="#ffffff" transform="rotate(45 457 663)"/>
+        <rect x="395" y="601" width="10" height="10" fill="#ffffff" transform="rotate(45 400 606)"/>
+        <rect x="338" y="658" width="10" height="10" fill="#ffffff" transform="rotate(45 343 663)"/>
+        <path d="M 394 716 L 406 716 L 406 723 L 400 729 L 394 723 Z" fill="#ffffff"/>
+    </g>
+    <g id="outfield-wall">
+        <path d="M 178.5 498.5 L 258.4 378.3 L 400 367.2 L 521.6 426.5 L 619.6 500.4" fill="none" stroke="#1f5f3a"
+              stroke-width="5" stroke-linejoin="round"/>
+    </g>
+    <g id="stadium-accents">
+        <circle cx="400" cy="630" r="3" fill="#f1e6d0"/>
+    </g>
+</svg>
