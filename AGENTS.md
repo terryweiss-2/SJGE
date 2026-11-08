@@ -9,13 +9,15 @@ Guidance for agents working in this repository.
 - Distinguish between "human player" and "in game player": refer to the human player as **"The Manager"** and the
   in-game player as **"player"**.
 - Linting rules are defined in specs/lib/LINTER.md
+- Consult the [glossary](specs/GLOSSARY.md) for terminology.
 
 ## Layout
 
-- `specs/` - design and specs
+- `specs/*` - design and specs
 - `packages/lib` - tools and utilities (calculators, database abstractions, etc.)
 - `packages/core` - core engine: economics, seasons, leagues, teams, players
 - `packages/ui` - Vue.js UI library
+- `products/assets` - common assets
 - `products/baseball` - baseball game
 - `products/motorsport` - motorsport game
 - `.agents/skills` - agent skills
@@ -36,14 +38,14 @@ dotEnv (environment variables)
 check-types (validate types)
 DayJS (date handling)
 ioRedis (redis)
+JSON Schema (validate JSON, mostly for messages)
 
 ## Testing
 
 - Use tapjs for testing
-- Redis and MongoDB are installed in local docker with default options. DO not mock redis or mongo or rabbitmq, check to
-  see if the docker engine is running and start it if it is not running. If you had to start it, close it when you are
-  done. If you did not start it, leave it running when tests are finished. The same is true for the services in the
-  docker compose file, rabbitmq, redis and mongo.
+- Redis, RabbitMQ and MongoDB are installed in local docker containers with default options. Do _not_ mock redis or
+  mongo or rabbitmq, check to see if the docker engine is running and start it if it is not running. If you had to start
+  it, close it when you are done. If you did not start it, leave it running when tests are finished.
 
 ## Agent file locations
 
@@ -53,7 +55,7 @@ ioRedis (redis)
 
 # Behaviors
 
-- Always type check parameters with `check-type`.
+- Always type check parameters with `check-type` for any public API, unless it is covered by a JSON Schema.
 - Prefer GNU Make for shell scripts and build automation.
 - Always add jsdoc module level documentation and for all public methods and properties in the module. Add or update the
   README.md in the root of the package so that it contains all exported symbols and a description of how to use them and
