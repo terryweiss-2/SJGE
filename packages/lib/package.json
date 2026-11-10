@@ -10,6 +10,7 @@
     "test": "tap"
   },
   "dependencies": {
+    "ajv": "^8.20.0",
     "check-types": "^11.2.3",
     "dotenv": "^16.4.5",
     "yaml": "^2.5.0",

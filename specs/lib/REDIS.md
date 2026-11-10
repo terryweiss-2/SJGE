@@ -12,9 +12,9 @@ ioredis `duplicate`.
 - Since the module maintains a single connection, the rest of this document assumes that every call that requires a
   connection uses the singleton connection.
 - The `config` object *must* contain a `redis` property that is an object with a `url` property that is a valid redis
-  url. But this module doesn't care about it, the url may be passed by the caller; when omitted this module reads it
-  with
-  `loadConfig()` from the config module. On disk, that url will be contained in an execution environment section. But
+  url. The url may be passed by the caller; when omitted this module reads it with
+  `loadConfig()` from the config module. On disk, the url will be pulled from a "secrets" service. The config contains
+  will be contained in an execution environment section. But
   since config flattens the file based on the requested environment, this module can assume the url and options for
   redis are at the root level of the configuration.
 - The `config` object *may* contain an `options` property that provides defaults for the ioredis connection. Any options

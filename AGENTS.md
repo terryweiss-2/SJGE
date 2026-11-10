@@ -6,8 +6,6 @@ Guidance for agents working in this repository.
 - Store all skills in the `.agents/skills` directory.
 - Store all plans in the `.agents/plans` directory. Specifications go in `specs`.
 - Prefer available libraries over new code. Ask for approval before adding any new npm dependency.
-- Distinguish between "human player" and "in game player": refer to the human player as **"The Manager"** and the
-  in-game player as **"player"**.
 - Linting rules are defined in specs/lib/LINTER.md
 - Consult the [glossary](specs/GLOSSARY.md) for terminology.
 

@@ -108,6 +108,45 @@ production:
 Top-level object keys named `development`, `test`, `production` or `staging` are environment sections; other keys
 are shared values.
 
+## Typed Object
+
+### `createTypedObject(schema[, initial][, options])`
+
+Returns a Proxy-wrapped object validated against a JSON Schema (`$ref`s are followed). Without `initial`, the object
+has the shape of the schema's `properties` (values `undefined` or the schema `default`).
+
+Options:
+
+- `validateOnInit` - validate on creation and throw if invalid (runs regardless of other options).
+- `liveValidate` - validate every set/delete; an invalid change is rejected (value unchanged) and throws.
+- `onlyWarn` - accept any value and only `logger.warning()` on failure (takes precedence over `liveValidate`).
+- `logger` - logger to use instead of the default.
+
+Methods on the returned object (not enumerable, not stored in the data):
+
+- `validate()` - returns `true` or throws `ValidationError`.
+- `replaceWith(obj[, validateNow])` - replaces all contents, optionally validating; useful to reuse one object across a
+  record stream.
+
+Every thrown error is first logged with `logger.error()`.
+
+### Errors
+
+- `TypedObjectError` - base class, extends `Error`.
+- `SchemaError` - schema cannot be compiled or `$ref` unresolved.
+- `OptionsError` - invalid options.
+- `ValidationError` - data violates the schema; `errors` holds the ajv error array.
+
+```js
+import {createTypedObject} from '@sjge/lib';
+
+const person = createTypedObject({
+    type: 'object',
+    properties: {name: {type: 'string'}}
+}, {name: 'Al'}, {liveValidate: true});
+person.name = 5; // throws ValidationError, name stays 'Al'
+```
+
 ## Tests
 
 ```
